@@ -492,6 +492,27 @@ export function CV() {
             </Stack>
           </Paper>
 
+          {/* The Van */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">The Van Project</Title>
+                <Text c="dimmed">June 2015 - February 2020</Text>
+              </Group>
+              <Text>Full van conversion project with integrated systems</Text>
+              <List>
+                <List.Item>Designed and implemented complete living space conversion</List.Item>
+                <List.Item>Installed electrical, gas, and structural systems</List.Item>
+                <List.Item>Documented build process through photography and social media</List.Item>
+              </List>
+              <Anchor href="http://instagram.com/tdobsonnet" target="_blank">View Build Photos</Anchor>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Project Management</Badge>
+                <Badge size="sm">Technical Design</Badge>
+                <Badge size="sm">Documentation</Badge>
+              </Group>
+            </Stack>
+          </Paper>
         </Stack>
 
         {/* Skills */}
