@@ -493,7 +493,7 @@ export function CV() {
                     Materials Calculator
                   </Title>
                 </Group>
-                <Text c="dimmed">2023</Text>
+                <Text c="dimmed">2024</Text>
               </Group>
               <Text>Solar PV materials calculator for streamlined build planning</Text>
               <List>
@@ -602,6 +602,8 @@ export function CV() {
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Digital Marketing</Badge>
                 <Badge size="sm">Product Strategy</Badge>
+                <Badge size="sm">Startups</Badge>
+                <Badge size="sm">Lean Startup</Badge>
               </Group>
             </Stack>
           </Paper>
@@ -679,6 +681,14 @@ export function CV() {
                 </List.Item>
                 <List.Item>
                   Led community outreach through Linux User Groups across Northern England
+                </List.Item>
+                <List.Item>
+                  <Anchor 
+                    href="http://web.archive.org/web/20110719024201/http://dfey.org/" 
+                    target="_blank"
+                  >
+                    View archived website
+                  </Anchor>
                 </List.Item>
               </List>
               <Group gap="xs" mt="xs">
