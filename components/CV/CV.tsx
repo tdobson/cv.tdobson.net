@@ -99,6 +99,7 @@ export function CV() {
                 <Badge size="sm">React</Badge>
                 <Badge size="sm">WordPress</Badge>
                 <Badge size="sm">System Integration</Badge>
+                <Badge size="sm">Google Apps Script</Badge>
               </Group>
             </Stack>
           </Paper>
@@ -131,6 +132,8 @@ export function CV() {
                 <Badge size="sm">Leadership</Badge>
                 <Badge size="sm">Process Automation</Badge>
                 <Badge size="sm">Change Management</Badge>
+                <Badge size="sm">WooCommerce</Badge>
+                <Badge size="sm">WordPress</Badge>
               </Group>
             </Stack>
           </Paper>
@@ -603,10 +606,6 @@ export function CV() {
                 </Paper>
                 <Paper withBorder p="xs" radius="md">
                   <Text fw={500}>16 Hour Outdoor First Aid</Text>
-                  <Text size="sm" c="dimmed">Current</Text>
-                </Paper>
-                <Paper withBorder p="xs" radius="md">
-                  <Text fw={500}>First Aid at Work Certificate</Text>
                   <Text size="sm" c="dimmed">Current</Text>
                 </Paper>
               </Stack>
