@@ -635,21 +635,21 @@ export function CV() {
               </Paper>
             </Grid.Col>
 
-            {/* Una Cottrell */}
+            {/* Dan Morris */}
             <Grid.Col span={{ base: 12, md: 6 }}>
               <Paper withBorder p="md" radius="md">
                 <Stack gap="xs">
                   <Group>
-                    <Avatar src="/testimonials/una.jpeg" alt="Una Cottrell" size="lg" radius="xl" />
+                    <Avatar src="/testimonials/dan.jpeg" alt="Daniel Morris" size="lg" radius="xl" />
                     <div>
-                      <Text fw={500}>Una Cottrell</Text>
-                      <Text size="sm" c="dimmed">Sales Funnel Consultant</Text>
+                      <Text fw={500}>Daniel Morris</Text>
+                      <Text size="sm" c="dimmed">Private Sector Engineering Leader</Text>
                     </div>
                   </Group>
                   <Text fz="sm" fs="italic">
-                    "I've been on Tim's outer circle for a number of years, but met him properly when he was a team member of a client of mine when I worked on-site for 12 months. Tim's role was 100% client-facing and he excelled at this. Extremely customer-focused, he was considerate and treated clients with the utmost integrity and professionalism."
+                    "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!"
                   </Text>
-                  <Anchor href="https://www.unacottrell.com/" size="sm" target="_blank">
+                  <Anchor href="https://www.linkedin.com/in/danieljohnmorris/" size="sm" target="_blank">
                     View Profile
                   </Anchor>
                 </Stack>
