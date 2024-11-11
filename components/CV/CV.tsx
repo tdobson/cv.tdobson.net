@@ -540,6 +540,14 @@ export function CV() {
                 <List.Item>Implemented data-driven improvements based on user feedback</List.Item>
                 <List.Item>
                   <Anchor
+                    href="http://web.archive.org/web/20150519044113/http://pieline.net/"
+                    target="_blank"
+                  >
+                    View archived job board
+                  </Anchor>
+                </List.Item>
+                <List.Item>
+                  <Anchor
                     href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2"
                     target="_blank"
                   >
