@@ -164,17 +164,59 @@ export function CV() {
               <Stack gap="xs">
                 <Text fw={500}>Head of Technical Sales & Account Management (3 years)</Text>
                 <List>
-                  <List.Item>Led technical sales team, doubling managed customer revenue</List.Item>
+                  <List.Item>Led technical sales team as "human API", doubling managed customer revenue</List.Item>
                   <List.Item>Managed complex technical hosting projects and customer relationships</List.Item>
+                  <List.Item>Developed expertise in requirement gathering, proposal writing, and negotiation</List.Item>
                   <List.Item>Conducted user research and product testing through GV-style Design Sprints</List.Item>
                 </List>
+                
                 <Text fw={500}>Community/Events Marketing (18 months)</Text>
                 <List>
-                  <List.Item>Managed developer community engagement program</List.Item>
-                  <List.Item>Led sponsorship for 24+ technical conferences</List.Item>
-                  <List.Item>Built relationships across open source communities</List.Item>
+                  <List.Item>Managed and attended 24+ technical conferences annually</List.Item>
+                  <List.Item>Led extensive open source project sponsorship programme</List.Item>
+                  <List.Item>Built relationships across developer communities</List.Item>
+                </List>
+
+                <Text fw={500}>Systems Administrator (18 months)</Text>
+                <List>
+                  <List.Item>Supported managed customers' Linux-based hosting solutions</List.Item>
+                  <List.Item>Performed preventative maintenance and migration assistance</List.Item>
+                  <List.Item>Developed expertise in Linux technology stacks and debugging</List.Item>
                 </List>
               </Stack>
+            </Stack>
+          </Paper>
+
+          {/* DMC */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Systems Engineer - Data Messaging & Communications Ltd</Title>
+                <Text c="dimmed">November 2008 - October 2010</Text>
+              </Group>
+              <List>
+                <List.Item>Provided first-line VoIP and Asterisk support to customers</List.Item>
+                <List.Item>Implemented ticket tracking and network monitoring systems</List.Item>
+                <List.Item>Automated provisioning processes to improve efficiency</List.Item>
+                <List.Item>Specialized in troubleshooting SIP and VoIP over consumer ADSL</List.Item>
+                <List.Item>Developed expertise in low-level networking (OSI Layer 3 and 4)</List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          {/* BBC */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Contracted Xen Sysadmin - BBC Backstage</Title>
+                <Text c="dimmed">February 2009 - August 2010</Text>
+              </Group>
+              <List>
+                <List.Item>Managed R&D VM cluster "Playground" supporting BBC developers</List.Item>
+                <List.Item>Administered 50+ guest VMs across 6-8 Xen hypervisor hosts</List.Item>
+                <List.Item>Provided technical support and machine provisioning for development teams</List.Item>
+                <List.Item>Maintained mixed Centos and Debian environment</List.Item>
+              </List>
             </Stack>
           </Paper>
         </Stack>
@@ -406,8 +448,8 @@ export function CV() {
               <Title order={2} size="h2" c="blue.7">Languages</Title>
               <Group gap="xs">
                 <Badge size="lg" variant="light" color="green">English (Native)</Badge>
-                <Badge size="lg" variant="light" color="yellow">Russian (Elementary)</Badge>
-                <Badge size="lg" variant="light" color="yellow">French (Elementary)</Badge>
+                <Badge size="lg" variant="light" color="yellow">French (Semi-fluent)</Badge>
+                <Badge size="lg" variant="light" color="yellow">Russian (Some understanding)</Badge>
               </Group>
             </Stack>
           </Grid.Col>
