@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid, Avatar } from '@mantine/core';
 import { 
   IconMail, 
