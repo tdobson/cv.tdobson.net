@@ -179,9 +179,6 @@ export function CV() {
                   structure
                 </List.Item>
               </List>
-              <Anchor href="https://www.cavingcrew.com/" target="_blank">
-                Visit Website
-              </Anchor>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Community Building</Badge>
                 <Badge size="sm">Digital Transformation</Badge>
