@@ -142,6 +142,119 @@ export function CV() {
           </Paper>
         </Stack>
 
+        {/* Volunteer Projects */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">Volunteer Projects</Title>
+
+          {/* The Caving Crew */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">The Caving Crew</Title>
+                <Text c="dimmed">November 2019 - Present</Text>
+              </Group>
+              <List>
+                <List.Item>Setup and grew a BCA-Affiliated Caving Club to above-average size for UK Caving Clubs</List.Item>
+                <List.Item>Implemented technical solutions for club management and member engagement</List.Item>
+                <List.Item>Associated with The Climbing Clan, sharing resources and community</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Linux</Badge>
+                <Badge size="sm">Leadership</Badge>
+                <Badge size="sm">Node.js</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Parliamentary Candidate */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
+                <Text c="dimmed">March 2010 - May 2010</Text>
+              </Group>
+              <List>
+                <List.Item>Represented Manchester Gorton constituency in 2010 General Election</List.Item>
+                <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
+                <List.Item>Engaged with media and handled public speaking engagements</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Leadership</Badge>
+                <Badge size="sm">Public Speaking</Badge>
+                <Badge size="sm">Press Relations</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+        </Stack>
+
+        {/* Programming Projects */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">Programming Projects</Title>
+
+          {/* Pieline.net */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Pieline.net</Title>
+                <Text c="dimmed">March 2015 - October 2015</Text>
+              </Group>
+              <Text>Community tech job board for the North West tech community</Text>
+              <List>
+                <List.Item>Built prototype using Node.js, Bootstrap, and MySQL</List.Item>
+                <List.Item>Tested user assumptions about job search and information presentation</List.Item>
+                <List.Item>Implemented data-driven improvements based on user feedback</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Node.js</Badge>
+                <Badge size="sm">MySQL</Badge>
+                <Badge size="sm">JavaScript</Badge>
+                <Badge size="sm">Bootstrap</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Dripfeed */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Dripfeed</Title>
+                <Text c="dimmed">October 2013 - November 2013</Text>
+              </Group>
+              <Text>Financial management tool for responsible spending and saving</Text>
+              <List>
+                <List.Item>Led marketing strategy for YCombinator application</List.Item>
+                <List.Item>Contributed to product development and user acquisition strategy</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Digital Marketing</Badge>
+                <Badge size="sm">Product Strategy</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* The Van */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">The Van Project</Title>
+                <Text c="dimmed">June 2015 - February 2020</Text>
+              </Group>
+              <Text>Full van conversion project with integrated systems</Text>
+              <List>
+                <List.Item>Designed and implemented complete living space conversion</List.Item>
+                <List.Item>Installed electrical, gas, and structural systems</List.Item>
+                <List.Item>Documented build process through photography and social media</List.Item>
+              </List>
+              <Anchor href="http://instagram.com/tdobsonnet" target="_blank">View Build Photos</Anchor>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Project Management</Badge>
+                <Badge size="sm">Technical Design</Badge>
+                <Badge size="sm">Documentation</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+        </Stack>
+
         {/* Skills */}
         <Grid>
           <Grid.Col span={4}>
