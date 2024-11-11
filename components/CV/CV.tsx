@@ -203,6 +203,39 @@ export function CV() {
             </Stack>
           </Paper>
 
+          {/* DFEY */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Digital Freedom in Education & Youth - North West</Title>
+                <Text c="dimmed">June 2008 - April 2012</Text>
+              </Group>
+              <Text>Co-founded initiative to increase youth participation in technology through accessible event experiences.</Text>
+              <List>
+                <List.Item>Organized youth delegations to major tech events:
+                  <List withPadding>
+                    <List.Item>2morro Festival (London)</List.Item>
+                    <List.Item>Young Rewired State - London & Manchester centres</List.Item>
+                  </List>
+                </List.Item>
+                <List.Item>Delivered keynote presentations at technology conferences:
+                  <List withPadding>
+                    <List.Item>FutureEverything (Manchester)</List.Item>
+                    <List.Item>OpenTech (London)</List.Item>
+                    <List.Item>NeoN Digital Arts Festival (Dundee)</List.Item>
+                  </List>
+                </List.Item>
+                <List.Item>Led community outreach through Linux User Groups across Northern England</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Public Speaking</Badge>
+                <Badge size="sm">Event Organization</Badge>
+                <Badge size="sm">Youth Engagement</Badge>
+                <Badge size="sm">Technology Education</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
           {/* Parliamentary Candidate */}
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
