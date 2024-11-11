@@ -1,4 +1,4 @@
-import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid } from '@mantine/core';
+import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid, Avatar } from '@mantine/core';
 import { IconMail, IconBrandLinkedin, IconBrandGithub, IconMapPin, IconPhone } from '@tabler/icons-react';
 
 export function CV() {
@@ -191,6 +191,57 @@ export function CV() {
         <Stack gap="md">
           <Title order={2} size="h2" c="blue.7">Programming Projects</Title>
 
+          {/* neoClan */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">neoClan</Title>
+                <Text c="dimmed">2023 - Present</Text>
+              </Group>
+              <Text>Membership check-in system for The Climbing Clan and The Caving Crew</Text>
+              <List>
+                <List.Item>Built mobile-first React application for membership management</List.Item>
+                <List.Item>Integrated with WordPress and WooCommerce for seamless user experience</List.Item>
+                <List.Item>Improved operational efficiency through custom API development</List.Item>
+              </List>
+              <Group gap="xs">
+                <Anchor href="https://neoclan.climbingclan.com/" target="_blank">Live Project</Anchor>
+                <Anchor href="https://github.com/tdobson/neoclan" target="_blank">GitHub</Anchor>
+              </Group>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">React</Badge>
+                <Badge size="sm">Mantine</Badge>
+                <Badge size="sm">WordPress</Badge>
+                <Badge size="sm">WooCommerce</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Materials Calculator */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Materials Calculator</Title>
+                <Text c="dimmed">2023</Text>
+              </Group>
+              <Text>Solar PV materials calculator for streamlined build planning</Text>
+              <List>
+                <List.Item>Developed React-based calculator to replace slow spreadsheet solution</List.Item>
+                <List.Item>Reduced calculation time from 5-10 minutes to seconds</List.Item>
+                <List.Item>Implemented familiar interface for easy user adoption</List.Item>
+              </List>
+              <Group gap="xs">
+                <Anchor href="https://rastapopoulos.pages.dev/bom" target="_blank">Live Project</Anchor>
+                <Anchor href="https://github.com/tdobson/rastapopoulos" target="_blank">GitHub</Anchor>
+              </Group>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">React</Badge>
+                <Badge size="sm">Mantine</Badge>
+                <Badge size="sm">JavaScript</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
           {/* Pieline.net */}
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
@@ -307,6 +358,75 @@ export function CV() {
             </Stack>
           </Grid.Col>
         </Grid>
+
+        {/* References */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">Selected References</Title>
+          <Grid>
+            {/* Mark Taylor */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/mark.jpeg" alt="Mark Taylor" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Mark Taylor</Text>
+                      <Text size="sm" c="dimmed">Chief Executive Officer at Sirius Open Source Inc.</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "I've known Tim for years as he has progressed in the Open Source community ... Tim is always available, always helpful, and has made doing great business ... a pleasure."
+                  </Text>
+                  <Anchor href="https://www.siriusopensource.com/en-uk/about/meet-the-team" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+
+            {/* Steph Gray */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/steph.jpeg" alt="Steph Gray" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Steph Gray</Text>
+                      <Text size="sm" c="dimmed">Managing Director at Helpful Digital</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "I've have known Tim through events I've organised that he's supported over five years or more. He's the friendly, approachable face of what can be quite a daunting world to folks like me from outside the natural world of Linux hosting and sysadminry."
+                  </Text>
+                  <Anchor href="https://stephgray.com/" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+
+            {/* Colin Wren */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/colinwren.jpeg" alt="Colin Wren" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Colin Wren</Text>
+                      <Text size="sm" c="dimmed">Engineering Manager at Glean</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "I'd met Tim through NHS Hackday where he was diving into the chaos that happens when doctors and \"geeks\" get together... He helped to pull together quotes and to explain the options with my colleague, this made everything easier for the final decision to be made."
+                  </Text>
+                  <Anchor href="https://colinwren.is/blog" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+          </Grid>
+        </Stack>
       </Stack>
     </Container>
   );
