@@ -221,6 +221,103 @@ export function CV() {
           </Paper>
         </Stack>
 
+        {/* Programming Projects */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">Selected Programming Portfolio</Title>
+
+          {/* neoClan */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">neoClan</Title>
+                <Text c="dimmed">2023 - Present</Text>
+              </Group>
+              <Text>Membership check-in system for The Climbing Clan and The Caving Crew</Text>
+              <List>
+                <List.Item>Built mobile-first React application for membership management</List.Item>
+                <List.Item>Integrated with WordPress and WooCommerce for seamless user experience</List.Item>
+                <List.Item>Improved operational efficiency through custom API development</List.Item>
+              </List>
+              <Group gap="xs">
+                <Anchor href="https://neoclan.climbingclan.com/" target="_blank">Live Project</Anchor>
+                <Anchor href="https://github.com/tdobson/neoclan" target="_blank">GitHub</Anchor>
+              </Group>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">React</Badge>
+                <Badge size="sm">Mantine</Badge>
+                <Badge size="sm">WordPress</Badge>
+                <Badge size="sm">WooCommerce</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Materials Calculator */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Materials Calculator</Title>
+                <Text c="dimmed">2023</Text>
+              </Group>
+              <Text>Solar PV materials calculator for streamlined build planning</Text>
+              <List>
+                <List.Item>Developed React-based calculator to replace slow spreadsheet solution</List.Item>
+                <List.Item>Reduced calculation time from 5-10 minutes to seconds</List.Item>
+                <List.Item>Implemented familiar interface for easy user adoption</List.Item>
+              </List>
+              <Group gap="xs">
+                <Anchor href="https://rastapopoulos.pages.dev/bom" target="_blank">Live Project</Anchor>
+                <Anchor href="https://github.com/tdobson/rastapopoulos" target="_blank">GitHub</Anchor>
+              </Group>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">React</Badge>
+                <Badge size="sm">Mantine</Badge>
+                <Badge size="sm">JavaScript</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Pieline.net */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Pieline.net</Title>
+                <Text c="dimmed">March 2015 - October 2015</Text>
+              </Group>
+              <Text>Community tech job board for the North West tech community</Text>
+              <List>
+                <List.Item>Built prototype using Node.js, Bootstrap, and MySQL</List.Item>
+                <List.Item>Tested user assumptions about job search and information presentation</List.Item>
+                <List.Item>Implemented data-driven improvements based on user feedback</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Node.js</Badge>
+                <Badge size="sm">MySQL</Badge>
+                <Badge size="sm">JavaScript</Badge>
+                <Badge size="sm">Bootstrap</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Dripfeed */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Dripfeed</Title>
+                <Text c="dimmed">October 2013 - November 2013</Text>
+              </Group>
+              <Text>Financial management tool for responsible spending and saving</Text>
+              <List>
+                <List.Item>Led marketing strategy for YCombinator application</List.Item>
+                <List.Item>Contributed to product development and user acquisition strategy</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Digital Marketing</Badge>
+                <Badge size="sm">Product Strategy</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+        </Stack>
+
         {/* Volunteer Projects */}
         <Stack gap="md">
           <Title order={2} size="h2" c="blue.7">Volunteer Projects</Title>
@@ -395,27 +492,6 @@ export function CV() {
             </Stack>
           </Paper>
 
-          {/* The Van */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Title order={3} size="h3">The Van Project</Title>
-                <Text c="dimmed">June 2015 - February 2020</Text>
-              </Group>
-              <Text>Full van conversion project with integrated systems</Text>
-              <List>
-                <List.Item>Designed and implemented complete living space conversion</List.Item>
-                <List.Item>Installed electrical, gas, and structural systems</List.Item>
-                <List.Item>Documented build process through photography and social media</List.Item>
-              </List>
-              <Anchor href="http://instagram.com/tdobsonnet" target="_blank">View Build Photos</Anchor>
-              <Group gap="xs" mt="xs">
-                <Badge size="sm">Project Management</Badge>
-                <Badge size="sm">Technical Design</Badge>
-                <Badge size="sm">Documentation</Badge>
-              </Group>
-            </Stack>
-          </Paper>
         </Stack>
 
         {/* Skills */}
@@ -517,42 +593,42 @@ export function CV() {
               </Paper>
             </Grid.Col>
 
-            {/* Colin Wren */}
+            {/* Ian Forrester */}
             <Grid.Col span={{ base: 12, md: 6 }}>
               <Paper withBorder p="md" radius="md">
                 <Stack gap="xs">
                   <Group>
-                    <Avatar src="/testimonials/colinwren.jpeg" alt="Colin Wren" size="lg" radius="xl" />
+                    <Avatar src="/testimonials/ian.jpeg" alt="Ian Forrester" size="lg" radius="xl" />
                     <div>
-                      <Text fw={500}>Colin Wren</Text>
-                      <Text size="sm" c="dimmed">Engineering Manager at Glean</Text>
+                      <Text fw={500}>Ian Forrester</Text>
+                      <Text size="sm" c="dimmed">Senior Firestarter at BBC R&D</Text>
                     </div>
                   </Group>
                   <Text fz="sm" fs="italic">
-                    "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!"
+                    "Tim is a very reliable freelancer who ... has a wealth of knowledge under his belt. He's very reasonable and flexible when the job requires it. He also learns very quickly and uses the range of skills he naturally picks up on every job he takes on. Tim's an all round superstar."
                   </Text>
-                  <Anchor href="https://colinwren.is/blog" size="sm" target="_blank">
+                  <Anchor href="https://www.cubicgarden.com" size="sm" target="_blank">
                     View Profile
                   </Anchor>
                 </Stack>
               </Paper>
             </Grid.Col>
 
-            {/* Jim Killock */}
+            {/* Una Cottrell */}
             <Grid.Col span={{ base: 12, md: 6 }}>
               <Paper withBorder p="md" radius="md">
                 <Stack gap="xs">
                   <Group>
-                    <Avatar src="/testimonials/jim.jpeg" alt="Jim Killock" size="lg" radius="xl" />
+                    <Avatar src="/testimonials/una.jpeg" alt="Una Cottrell" size="lg" radius="xl" />
                     <div>
-                      <Text fw={500}>Jim Killock</Text>
-                      <Text size="sm" c="dimmed">Executive Director at Open Rights Group</Text>
+                      <Text fw={500}>Una Cottrell</Text>
+                      <Text size="sm" c="dimmed">Sales Funnel Consultant</Text>
                     </div>
                   </Group>
                   <Text fz="sm" fs="italic">
-                    "I found Tim to be extremely personable and very professional. He assessed our needs well, and advised on a product to meet them. Tim is an excellent advocate for the company and I would happily work with him again."
+                    "I've been on Tim's outer circle for a number of years, but met him properly when he was a team member of a client of mine when I worked on-site for 12 months. Tim's role was 100% client-facing and he excelled at this. Extremely customer-focused, he was considerate and treated clients with the utmost integrity and professionalism."
                   </Text>
-                  <Anchor href="https://www.openrightsgroup.org/who-we-are/jim-killock/" size="sm" target="_blank">
+                  <Anchor href="https://www.unacottrell.com/" size="sm" target="_blank">
                     View Profile
                   </Anchor>
                 </Stack>
