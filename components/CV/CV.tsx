@@ -1,5 +1,7 @@
 import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid, Avatar } from '@mantine/core';
-import { IconMail, IconBrandLinkedin, IconBrandGithub, IconMapPin, IconPhone } from '@tabler/icons-react';
+import { IconMail, IconBrandLinkedin, IconBrandGithub, IconMapPin, IconPhone, 
+  IconCode, IconUsers, IconBuildingStore, IconCloud, IconRocket, 
+  IconChartBar, IconServer, IconBroadcast } from '@tabler/icons-react';
 
 export function CV() {
   return (
@@ -59,7 +61,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Full-stack Developer - XEBIT LIMITED</Title>
+                <Group>
+                  <IconCode size={24} color="#228BE6" />
+                  <Title order={3} size="h3">Full-stack Developer - XEBIT LIMITED</Title>
+                </Group>
                 <Text c="dimmed">March 2022 - Present</Text>
               </Group>
               <List>
@@ -75,7 +80,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Founder & Former Chair - The Climbing Clan</Title>
+                <Group>
+                  <IconUsers size={24} color="#40C057" />
+                  <Title order={3} size="h3">Founder & Former Chair - The Climbing Clan</Title>
+                </Group>
                 <Text c="dimmed">November 2017 - September 2024</Text>
               </Group>
               <List>
@@ -97,7 +105,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Technical Sales Consultant - Migrating Dragons</Title>
+                <Group>
+                  <IconBuildingStore size={24} color="#BE4BDB" />
+                  <Title order={3} size="h3">Technical Sales Consultant - Migrating Dragons</Title>
+                </Group>
                 <Text c="dimmed">April 2018 - March 2022</Text>
               </Group>
               <List>
@@ -113,7 +124,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Customer Success Manager - Brightbox</Title>
+                <Group>
+                  <IconCloud size={24} color="#FA5252" />
+                  <Title order={3} size="h3">Customer Success Manager - Brightbox</Title>
+                </Group>
                 <Text c="dimmed">October 2018 - October 2019</Text>
               </Group>
               <List>
@@ -128,7 +142,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">User Research Specialist - Guardian Angel</Title>
+                <Group>
+                  <IconRocket size={24} color="#FCC419" />
+                  <Title order={3} size="h3">User Research Specialist - Guardian Angel</Title>
+                </Group>
                 <Text c="dimmed">February 2019 - July 2019</Text>
               </Group>
               <List>
@@ -143,7 +160,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Senior Account Manager - Formisimo</Title>
+                <Group>
+                  <IconChartBar size={24} color="#228BE6" />
+                  <Title order={3} size="h3">Senior Account Manager - Formisimo</Title>
+                </Group>
                 <Text c="dimmed">July 2017 - April 2018</Text>
               </Group>
               <List>
@@ -158,7 +178,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Head of Sales & Account Management - Bytemark Hosting</Title>
+                <Group>
+                  <IconServer size={24} color="#40C057" />
+                  <Title order={3} size="h3">Head of Sales & Account Management - Bytemark Hosting</Title>
+                </Group>
                 <Text c="dimmed">November 2010 - September 2016</Text>
               </Group>
               <Stack gap="xs">
@@ -191,7 +214,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Systems Engineer - Data Messaging & Communications Ltd</Title>
+                <Group>
+                  <IconPhone size={24} color="#BE4BDB" />
+                  <Title order={3} size="h3">Systems Engineer - Data Messaging & Communications Ltd</Title>
+                </Group>
                 <Text c="dimmed">November 2008 - October 2010</Text>
               </Group>
               <List>
@@ -208,7 +234,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Contracted Xen Sysadmin - BBC Backstage</Title>
+                <Group>
+                  <IconBroadcast size={24} color="#FA5252" />
+                  <Title order={3} size="h3">Contracted Xen Sysadmin - BBC Backstage</Title>
+                </Group>
                 <Text c="dimmed">February 2009 - August 2010</Text>
               </Group>
               <List>
@@ -503,7 +532,7 @@ export function CV() {
               </Group>
               <Text>Full van conversion project with integrated systems</Text>
               <List>
-                <List.Item>Designed and implemented complete living space conversion</List.Item>
+                <List.Item>Designed and implemented complete living space conversion using Lean and Agile principles</List.Item>
                 <List.Item>Installed electrical, gas, and structural systems</List.Item>
                 <List.Item>Documented build process through photography and social media</List.Item>
               </List>
@@ -512,6 +541,8 @@ export function CV() {
                 <Badge size="sm">Project Management</Badge>
                 <Badge size="sm">Technical Design</Badge>
                 <Badge size="sm">Documentation</Badge>
+                <Badge size="sm">Lean</Badge>
+                <Badge size="sm">Agile</Badge>
               </Group>
             </Stack>
           </Paper>
