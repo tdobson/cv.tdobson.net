@@ -30,38 +30,80 @@ This is the source code for [cv.tdobson.net](https://cv.tdobson.net) - a modern,
 
 ## Development
 
+### Prerequisites
+- Node.js (version specified in `.nvmrc`)
+- npm (comes with Node.js)
+
+### Installation
 ```bash
 # Install dependencies
-yarn install
+npm install
+```
 
+### Development Commands
+```bash
 # Run development server
-yarn dev
+npm run dev
 
 # Format code
-yarn format
+npm run format
+
+# Run linting
+npm run lint
+
+# Run type checking
+npm run typecheck
 
 # Run tests
-yarn test
+npm run test
+
+# Run tests in watch mode
+npm run jest:watch
+
+# Run Storybook
+npm run storybook
 
 # Build for production
-yarn build
+npm run build
+
+# Deploy to Cloudflare Pages
+npm run deploy
+
+# Analyze bundle
+npm run analyze
 ```
+
+### Code Quality
+
+The project uses several tools to maintain code quality:
+
+- **Biome** for linting and formatting
+- **TypeScript** for type checking
+- **Jest** for testing
+- **Stylelint** for CSS linting
+
+Run all quality checks with:
+```bash
+npm test
+```
+
+This runs prettier checks, linting, type checking, and tests.
 
 ## Deployment
 
-The site is deployed to Cloudflare Pages using GitHub Actions. The deployment workflow is:
-
-1. Push changes to main branch
-2. GitHub Actions runs tests and builds the site
-3. Cloudflare Pages deploys the built site
-
-To deploy manually:
+The site is deployed to Cloudflare Pages. To deploy:
 
 ```bash
-yarn deploy
+npm run deploy
 ```
 
-This will build the site and deploy to Cloudflare Pages using Wrangler.
+This command:
+1. Builds the site (`next build`)
+2. Deploys to Cloudflare Pages using Wrangler
+
+For automatic deployments, the repository is connected to Cloudflare Pages which:
+1. Watches for changes on the main branch
+2. Automatically builds and deploys when changes are detected
 
 ## Content Management
 
