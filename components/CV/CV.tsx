@@ -537,10 +537,16 @@ export function CV() {
                 <List.Item>Implemented data-driven improvements based on user feedback</List.Item>
               </List>
               <Group gap="xs">
-                <Anchor href="http://web.archive.org/web/20150519044113/http://pieline.net/" target="_blank">
+                <Anchor
+                  href="http://web.archive.org/web/20150519044113/http://pieline.net/"
+                  target="_blank"
+                >
                   View archived job board
                 </Anchor>
-                <Anchor href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2" target="_blank">
+                <Anchor
+                  href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2"
+                  target="_blank"
+                >
                   Read about lessons learned
                 </Anchor>
               </Group>
@@ -573,10 +579,16 @@ export function CV() {
                 </List.Item>
               </List>
               <Group gap="xs">
-                <Anchor href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/" target="_blank">
+                <Anchor
+                  href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/"
+                  target="_blank"
+                >
                   Read about our YCombinator application
                 </Anchor>
-                <Anchor href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/" target="_blank">
+                <Anchor
+                  href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/"
+                  target="_blank"
+                >
                   View archived application
                 </Anchor>
               </Group>
@@ -670,7 +682,10 @@ export function CV() {
                 </List.Item>
               </List>
               <Group gap="xs">
-                <Anchor href="http://web.archive.org/web/20110719024201/http://dfey.org/" target="_blank">
+                <Anchor
+                  href="http://web.archive.org/web/20110719024201/http://dfey.org/"
+                  target="_blank"
+                >
                   View archived website
                 </Anchor>
               </Group>
