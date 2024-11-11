@@ -93,6 +93,22 @@ export function CV() {
             </Stack>
           </Paper>
 
+          {/* Migrating Dragons */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Technical Sales Consultant - Migrating Dragons</Title>
+                <Text c="dimmed">April 2018 - March 2022</Text>
+              </Group>
+              <List>
+                <List.Item>Guided technology companies in developing effective growth strategies</List.Item>
+                <List.Item>Helped technical organizations bridge the gap between product excellence and market success</List.Item>
+                <List.Item>Created and executed sales strategies for SaaS products</List.Item>
+                <List.Item>Specialized in helping companies scale beyond initial product-market fit</List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
           {/* Brightbox */}
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
@@ -134,22 +150,6 @@ export function CV() {
                 <List.Item>Led enterprise customer onboarding for form analytics SaaS platform</List.Item>
                 <List.Item>Managed ongoing customer relationships and platform adoption</List.Item>
                 <List.Item>Facilitated smooth integration of analytics tools into client workflows</List.Item>
-              </List>
-            </Stack>
-          </Paper>
-
-          {/* Migrating Dragons */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Title order={3} size="h3">Technical Sales Consultant - Migrating Dragons</Title>
-                <Text c="dimmed">April 2018 - March 2022</Text>
-              </Group>
-              <List>
-                <List.Item>Guided technology companies in developing effective growth strategies</List.Item>
-                <List.Item>Helped technical organizations bridge the gap between product excellence and market success</List.Item>
-                <List.Item>Created and executed sales strategies for SaaS products</List.Item>
-                <List.Item>Specialized in helping companies scale beyond initial product-market fit</List.Item>
               </List>
             </Stack>
           </Paper>
