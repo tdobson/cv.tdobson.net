@@ -13,11 +13,11 @@ export function CV() {
           <Group gap="md">
             <Group gap="xs">
               <IconMail size={16} />
-              <Anchor href="mailto:email@tdobson.net">email@tdobson.net</Anchor>
+              <Anchor href="mailto:cv@tdobson.net">cv@tdobson.net</Anchor>
             </Group>
             <Group gap="xs">
               <IconPhone size={16} />
-              <Text>01457597007</Text>
+              <Anchor href="tel:01457597007">01457597007</Anchor>
             </Group>
             <Anchor href="https://www.linkedin.com/in/tdobson">
               <Group gap="xs">
@@ -301,7 +301,7 @@ export function CV() {
 
         {/* Programming Projects */}
         <Stack gap="md">
-          <Title order={2} size="h2" c="blue.7">Programming Projects</Title>
+          <Title order={2} size="h2" c="blue.7">Selected Programming Portfolio</Title>
 
           {/* neoClan */}
           <Paper withBorder p="md" radius="md">
@@ -602,6 +602,25 @@ export function CV() {
             </Grid.Col>
           </Grid>
         </Stack>
+
+        <Text c="dimmed" ta="center" mt="xl">More references available upon request</Text>
+
+        <Paper withBorder p="md" radius="md" mt="xl">
+          <Group justify="center" gap="xl">
+            <Group gap="xs">
+              <IconMail size={16} />
+              <Anchor href="mailto:cv@tdobson.net">cv@tdobson.net</Anchor>
+            </Group>
+            <Group gap="xs">
+              <IconPhone size={16} />
+              <Anchor href="tel:01457597007">01457597007</Anchor>
+            </Group>
+            <Group gap="xs">
+              <IconMapPin size={16} />
+              <Text>Strines, Greater Manchester, United Kingdom</Text>
+            </Group>
+          </Group>
+        </Paper>
       </Stack>
     </Container>
   );
