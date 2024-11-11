@@ -523,14 +523,15 @@ export function CV() {
               <Group gap="xs">
                 {[
                   'Node.js',
-                  'JavaScript/React',
-                  'Bash',
+                  'JavaScript/TypeScript',
+                  'React',
                   'Git',
-                  'System Integration',
-                  'Linux',
+                  'Debian Linux',
                   'WordPress',
                   'MySQL',
-                  'Data Analytics'
+                  'Next.js',
+                  'Serverless',
+                  'Scrum'
                 ].map((skill) => (
                   <Badge key={skill} size="lg" variant="light" color="blue">
                     {skill}
