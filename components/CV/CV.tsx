@@ -538,23 +538,15 @@ export function CV() {
                   Tested user assumptions about job search and information presentation
                 </List.Item>
                 <List.Item>Implemented data-driven improvements based on user feedback</List.Item>
-                <List.Item>
-                  <Anchor
-                    href="http://web.archive.org/web/20150519044113/http://pieline.net/"
-                    target="_blank"
-                  >
-                    View archived job board
-                  </Anchor>
-                </List.Item>
-                <List.Item>
-                  <Anchor
-                    href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2"
-                    target="_blank"
-                  >
-                    Read about lessons learned from building the job board
-                  </Anchor>
-                </List.Item>
               </List>
+              <Group gap="xs">
+                <Anchor href="http://web.archive.org/web/20150519044113/http://pieline.net/" target="_blank">
+                  View archived job board
+                </Anchor>
+                <Anchor href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2" target="_blank">
+                  Read about lessons learned
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Node.js</Badge>
                 <Badge size="sm">MySQL</Badge>
@@ -582,23 +574,15 @@ export function CV() {
                 <List.Item>
                   Contributed to product development and user acquisition strategy
                 </List.Item>
-                <List.Item>
-                  <Anchor
-                    href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/"
-                    target="_blank"
-                  >
-                    Read about our YCombinator application experience
-                  </Anchor>
-                </List.Item>
-                <List.Item>
-                  <Anchor
-                    href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/"
-                    target="_blank"
-                  >
-                    View archived application
-                  </Anchor>
-                </List.Item>
               </List>
+              <Group gap="xs">
+                <Anchor href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/" target="_blank">
+                  Read about our YCombinator application
+                </Anchor>
+                <Anchor href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/" target="_blank">
+                  View archived application
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Digital Marketing</Badge>
                 <Badge size="sm">Product Strategy</Badge>
@@ -639,6 +623,11 @@ export function CV() {
                   Associated with The Climbing Clan, sharing resources and community
                 </List.Item>
               </List>
+              <Group gap="xs">
+                <Anchor href="https://www.cavingcrew.com/" target="_blank">
+                  Visit Website
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Linux</Badge>
                 <Badge size="sm">Leadership</Badge>
@@ -682,15 +671,12 @@ export function CV() {
                 <List.Item>
                   Led community outreach through Linux User Groups across Northern England
                 </List.Item>
-                <List.Item>
-                  <Anchor
-                    href="http://web.archive.org/web/20110719024201/http://dfey.org/"
-                    target="_blank"
-                  >
-                    View archived website
-                  </Anchor>
-                </List.Item>
               </List>
+              <Group gap="xs">
+                <Anchor href="http://web.archive.org/web/20110719024201/http://dfey.org/" target="_blank">
+                  View archived website
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Public Speaking</Badge>
                 <Badge size="sm">Event Organization</Badge>
@@ -718,12 +704,12 @@ export function CV() {
                 </List.Item>
                 <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
                 <List.Item>Engaged with media and handled public speaking engagements</List.Item>
-                <List.Item>
-                  <Anchor href="https://thenextweb.com/news/pirate-party-uk" target="_blank">
-                    Read The Next Web coverage
-                  </Anchor>
-                </List.Item>
               </List>
+              <Group gap="xs">
+                <Anchor href="https://thenextweb.com/news/pirate-party-uk" target="_blank">
+                  Read The Next Web coverage
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Leadership</Badge>
                 <Badge size="sm">Public Speaking</Badge>
