@@ -1,7 +1,9 @@
 import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid, Avatar } from '@mantine/core';
 import { IconMail, IconBrandLinkedin, IconBrandGithub, IconMapPin, IconPhone, 
   IconCode, IconUsers, IconBuildingStore, IconCloud, IconRocket, 
-  IconChartBar, IconServer, IconBroadcast } from '@tabler/icons-react';
+  IconChartBar, IconServer, IconBroadcast, IconBrandReact, 
+  IconCalculator, IconBuildingCommunity, IconCoin,
+  IconCave, IconSchool, IconVote, IconCamper } from '@tabler/icons-react';
 
 export function CV() {
   return (
@@ -258,7 +260,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">neoClan</Title>
+                <Group>
+                  <IconBrandReact size={24} color="#61DAFB" />
+                  <Title order={3} size="h3">neoClan</Title>
+                </Group>
                 <Text c="dimmed">2023 - Present</Text>
               </Group>
               <Text>Membership check-in system for The Climbing Clan and The Caving Crew</Text>
@@ -284,7 +289,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Materials Calculator</Title>
+                <Group>
+                  <IconCalculator size={24} color="#40C057" />
+                  <Title order={3} size="h3">Materials Calculator</Title>
+                </Group>
                 <Text c="dimmed">2023</Text>
               </Group>
               <Text>Solar PV materials calculator for streamlined build planning</Text>
@@ -309,7 +317,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Pieline.net</Title>
+                <Group>
+                  <IconBuildingCommunity size={24} color="#BE4BDB" />
+                  <Title order={3} size="h3">Pieline.net</Title>
+                </Group>
                 <Text c="dimmed">March 2015 - October 2015</Text>
               </Group>
               <Text>Community tech job board for the North West tech community</Text>
@@ -331,7 +342,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Dripfeed</Title>
+                <Group>
+                  <IconCoin size={24} color="#FCC419" />
+                  <Title order={3} size="h3">Dripfeed</Title>
+                </Group>
                 <Text c="dimmed">October 2013 - November 2013</Text>
               </Group>
               <Text>Financial management tool for responsible spending and saving</Text>
@@ -454,7 +468,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">The Caving Crew</Title>
+                <Group>
+                  <IconCave size={24} color="#228BE6" />
+                  <Title order={3} size="h3">The Caving Crew</Title>
+                </Group>
                 <Text c="dimmed">November 2019 - Present</Text>
               </Group>
               <List>
@@ -474,7 +491,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Digital Freedom in Education & Youth - North West</Title>
+                <Group>
+                  <IconSchool size={24} color="#40C057" />
+                  <Title order={3} size="h3">Digital Freedom in Education & Youth - North West</Title>
+                </Group>
                 <Text c="dimmed">June 2008 - April 2012</Text>
               </Group>
               <Text>Co-founded initiative to increase youth participation in technology through accessible event experiences.</Text>
@@ -507,7 +527,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
+                <Group>
+                  <IconVote size={24} color="#BE4BDB" />
+                  <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
+                </Group>
                 <Text c="dimmed">March 2010 - May 2010</Text>
               </Group>
               <List>
@@ -527,7 +550,10 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Title order={3} size="h3">The Van Project</Title>
+                <Group>
+                  <IconCamper size={24} color="#FA5252" />
+                  <Title order={3} size="h3">The Van Project</Title>
+                </Group>
                 <Text c="dimmed">June 2015 - February 2020</Text>
               </Group>
               <Text>Full van conversion project with integrated systems</Text>
