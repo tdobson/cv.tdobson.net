@@ -1,9 +1,27 @@
 import { Container, Title, Text, Group, Stack, Badge, Anchor, List, Paper, Grid, Avatar } from '@mantine/core';
-import { IconMail, IconBrandLinkedin, IconBrandGithub, IconMapPin, IconPhone, 
-  IconCode, IconUsers, IconBuildingStore, IconCloud, IconRocket, 
-  IconChartBar, IconServer, IconBroadcast, IconBrandReact, 
-  IconCalculator, IconBuildingCommunity, IconCoin,
-  IconCave, IconSchool, IconVote, IconCamper } from '@tabler/icons-react';
+import { 
+  IconMail, 
+  IconBrandLinkedin, 
+  IconBrandGithub, 
+  IconMapPin, 
+  IconPhone, 
+  IconCode, 
+  IconUsers, 
+  IconBuildingStore, 
+  IconCloud, 
+  IconRocket, 
+  IconChartBar, 
+  IconServer, 
+  IconBroadcast, 
+  IconBrandReact, 
+  IconCalculator, 
+  IconBuildingCommunity, 
+  IconCoin,
+  IconCave, 
+  IconSchool, 
+  IconVote,
+  IconCamper 
+} from '@tabler/icons-react';
 
 export function CV() {
   return (
