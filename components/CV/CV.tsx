@@ -93,6 +93,13 @@ export function CV() {
                 <List.Item>Focus on creating accessible, scalable technical solutions</List.Item>
                 <List.Item>Lead implementation of data collection and reporting systems</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Full-stack Development</Badge>
+                <Badge size="sm">AWS</Badge>
+                <Badge size="sm">React</Badge>
+                <Badge size="sm">WordPress</Badge>
+                <Badge size="sm">System Integration</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -118,6 +125,13 @@ export function CV() {
                 <List.Item>Developed data-driven approaches to measure and improve community impact</List.Item>
                 <List.Item>Successfully transitioned leadership after building sustainable operational structure</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Community Building</Badge>
+                <Badge size="sm">Digital Transformation</Badge>
+                <Badge size="sm">Leadership</Badge>
+                <Badge size="sm">Process Automation</Badge>
+                <Badge size="sm">Change Management</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -137,6 +151,13 @@ export function CV() {
                 <List.Item>Created and executed sales strategies for SaaS products</List.Item>
                 <List.Item>Specialized in helping companies scale beyond initial product-market fit</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Technical Sales</Badge>
+                <Badge size="sm">Business Strategy</Badge>
+                <Badge size="sm">SaaS</Badge>
+                <Badge size="sm">Growth Strategy</Badge>
+                <Badge size="sm">Product Strategy</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -155,6 +176,12 @@ export function CV() {
                 <List.Item>Facilitated platform testing and feedback collection for Kubernetes integration</List.Item>
                 <List.Item>Supported developers in server deployment and application management</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Developer Relations</Badge>
+                <Badge size="sm">Cloud Infrastructure</Badge>
+                <Badge size="sm">Kubernetes</Badge>
+                <Badge size="sm">Customer Success</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -173,6 +200,12 @@ export function CV() {
                 <List.Item>Gathered and analyzed feedback from funeral directors</List.Item>
                 <List.Item>Contributed to product development and feature prioritization</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">User Research</Badge>
+                <Badge size="sm">Product Development</Badge>
+                <Badge size="sm">Stakeholder Management</Badge>
+                <Badge size="sm">Requirements Gathering</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -191,6 +224,12 @@ export function CV() {
                 <List.Item>Managed ongoing customer relationships and platform adoption</List.Item>
                 <List.Item>Facilitated smooth integration of analytics tools into client workflows</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Enterprise Sales</Badge>
+                <Badge size="sm">Account Management</Badge>
+                <Badge size="sm">SaaS</Badge>
+                <Badge size="sm">Analytics</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -226,6 +265,13 @@ export function CV() {
                   <List.Item>Performed preventative maintenance and migration assistance</List.Item>
                   <List.Item>Developed expertise in Linux technology stacks and debugging</List.Item>
                 </List>
+                <Group gap="xs" mt="xs">
+                  <Badge size="sm">Technical Sales Leadership</Badge>
+                  <Badge size="sm">Linux Administration</Badge>
+                  <Badge size="sm">Community Management</Badge>
+                  <Badge size="sm">Event Marketing</Badge>
+                  <Badge size="sm">Open Source</Badge>
+                </Group>
               </Stack>
             </Stack>
           </Paper>
@@ -247,6 +293,12 @@ export function CV() {
                 <List.Item>Specialized in troubleshooting SIP and VoIP over consumer ADSL</List.Item>
                 <List.Item>Developed expertise in low-level networking (OSI Layer 3 and 4)</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">VoIP</Badge>
+                <Badge size="sm">Linux Systems</Badge>
+                <Badge size="sm">Network Engineering</Badge>
+                <Badge size="sm">Technical Support</Badge>
+              </Group>
             </Stack>
           </Paper>
 
@@ -266,6 +318,12 @@ export function CV() {
                 <List.Item>Provided technical support and machine provisioning for development teams</List.Item>
                 <List.Item>Maintained mixed Centos and Debian Linux environment</List.Item>
               </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Virtualization</Badge>
+                <Badge size="sm">Linux Administration</Badge>
+                <Badge size="sm">Infrastructure Management</Badge>
+                <Badge size="sm">Developer Support</Badge>
+              </Group>
             </Stack>
           </Paper>
         </Stack>
@@ -542,6 +600,14 @@ export function CV() {
                 <Paper withBorder p="xs" radius="md">
                   <Text fw={500}>Cheadle & Marple 6th Form College</Text>
                   <Text size="sm" c="dimmed">2007 - 2009</Text>
+                </Paper>
+                <Paper withBorder p="xs" radius="md">
+                  <Text fw={500}>16 Hour Outdoor First Aid</Text>
+                  <Text size="sm" c="dimmed">Current</Text>
+                </Paper>
+                <Paper withBorder p="xs" radius="md">
+                  <Text fw={500}>First Aid at Work Certificate</Text>
+                  <Text size="sm" c="dimmed">Current</Text>
                 </Paper>
               </Stack>
             </Stack>
