@@ -41,21 +41,13 @@ export function CV() {
         {/* Professional Summary */}
         <Paper withBorder p="md" radius="md">
           <Text>
-            A passionate developer and lifelong learner with a background in Operations and Sysadmin. 
-            Experienced in helping technology companies tackle their biggest challenges – particularly in 
-            attracting and retaining customers. Founded and led The Climbing Clan and The Caving Crew, 
-            two BMC and BCA affiliated clubs, developing several software solutions including neoClan, 
-            a second-generation membership check-in system.
+            A technology leader with deep roots in operations and systems administration, now specializing in developing solutions that bridge technical excellence with business success. Having founded and led two successful sports clubs - The Climbing Clan and The Caving Crew - while developing their technical infrastructure, including the neoClan membership system, demonstrates the ability to combine technical innovation with practical business needs.
           </Text>
           <Text mt="md">
-            Brings a unique blend of technical and customer-focused skills from roles spanning Junior 
-            JavaScript Developer to Technical Sales Consultant. Particularly adept at integrating systems, 
-            automating processes, and ensuring customer success. Currently focused on React with the 
-            Mantine framework and Next.js, alongside exploring react-query and advanced git workflows.
+            Professional experience spans from hands-on systems administration to technical sales leadership, with particular expertise in developing customer-centric solutions and driving business growth. Recent work focuses on React development using the Mantine framework and Next.js, while maintaining strong capabilities in systems integration and process automation.
           </Text>
           <Text mt="md">
-            Outside of tech, an avid rock climber and caving enthusiast, bringing these passions for 
-            problem-solving and innovation to technical challenges.
+            Active participation in rock climbing and caving brings a unique perspective to technical challenges, combining outdoor leadership experience with systematic problem-solving approaches.
           </Text>
         </Paper>
 
@@ -97,6 +89,51 @@ export function CV() {
                 </List.Item>
                 <List.Item>Developed data-driven approaches to measure and improve community impact</List.Item>
                 <List.Item>Successfully transitioned leadership after building sustainable operational structure</List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          {/* Brightbox */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Customer Success Manager - Brightbox</Title>
+                <Text c="dimmed">October 2018 - October 2019</Text>
+              </Group>
+              <List>
+                <List.Item>Managed developer relations for cloud services platform</List.Item>
+                <List.Item>Facilitated platform testing and feedback collection for Kubernetes integration</List.Item>
+                <List.Item>Supported developers in server deployment and application management</List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          {/* Guardian Angel */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">User Research Specialist - Guardian Angel</Title>
+                <Text c="dimmed">February 2019 - July 2019</Text>
+              </Group>
+              <List>
+                <List.Item>Conducted user research for digital memorial platform</List.Item>
+                <List.Item>Gathered and analyzed feedback from funeral directors</List.Item>
+                <List.Item>Contributed to product development and feature prioritization</List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          {/* Formisimo */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Senior Account Manager - Formisimo</Title>
+                <Text c="dimmed">July 2017 - April 2018</Text>
+              </Group>
+              <List>
+                <List.Item>Led enterprise customer onboarding for form analytics SaaS platform</List.Item>
+                <List.Item>Managed ongoing customer relationships and platform adoption</List.Item>
+                <List.Item>Facilitated smooth integration of analytics tools into client workflows</List.Item>
               </List>
             </Stack>
           </Paper>
@@ -420,6 +457,69 @@ export function CV() {
                     "I'd met Tim through NHS Hackday where he was diving into the chaos that happens when doctors and \"geeks\" get together... He helped to pull together quotes and to explain the options with my colleague, this made everything easier for the final decision to be made."
                   </Text>
                   <Anchor href="https://colinwren.is/blog" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+
+            {/* Jim Killock */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/jim.jpeg" alt="Jim Killock" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Jim Killock</Text>
+                      <Text size="sm" c="dimmed">Executive Director at Open Rights Group</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "Tim's great to work with and really values the digital rights community. It's clear what his beliefs are in helping ORG and other groups succeed in their work."
+                  </Text>
+                  <Anchor href="https://www.openrightsgroup.org/who-we-are/jim-killock/" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+
+            {/* Matt Jukes */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/matt.jpeg" alt="Matt Jukes" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Matt Jukes</Text>
+                      <Text size="sm" c="dimmed">Public Sector Head of Product</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "I'd met Tim at various barcamps etc and had always been impressed with his know-how and community spirit so when I was looking for a new hosting company for the Medical Research Council he was a big factor in us choosing Bytemark. He was a great account manager for us - always helpful and on the ball."
+                  </Text>
+                  <Anchor href="https://www.linkedin.com/in/mjukes/" size="sm" target="_blank">
+                    View Profile
+                  </Anchor>
+                </Stack>
+              </Paper>
+            </Grid.Col>
+
+            {/* Steve Kemp */}
+            <Grid.Col span={{ base: 12, md: 6 }}>
+              <Paper withBorder p="md" radius="md">
+                <Stack gap="xs">
+                  <Group>
+                    <Avatar src="/testimonials/steve.jpeg" alt="Steve Kemp" size="lg" radius="xl" />
+                    <div>
+                      <Text fw={500}>Steve Kemp</Text>
+                      <Text size="sm" c="dimmed">Senior GNU/Linux Systems Administrator</Text>
+                    </div>
+                  </Group>
+                  <Text fz="sm" fs="italic">
+                    "Tim was and is a very competent and thorough administrator, with a good feel for the kind of jobs which would be required to host any particular site. Taking enquiries and turning those into requirements for hosting was definitely something he could do with his eyes closed, and something he could do well too."
+                  </Text>
+                  <Anchor href="https://steve.fi/" size="sm" target="_blank">
                     View Profile
                   </Anchor>
                 </Stack>
