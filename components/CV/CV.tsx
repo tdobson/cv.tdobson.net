@@ -63,7 +63,7 @@ export function CV() {
                 <Text c="dimmed">March 2022 - Present</Text>
               </Group>
               <List>
-                <List.Item>Develop automation solutions helping businesses streamline processes and measure impact</List.Item>
+                <List.Item>Develop serverless automation solutions on AWS helping businesses streamline processes and measure impact</List.Item>
                 <List.Item>Build integrations between platforms including Google Sheets and WordPress</List.Item>
                 <List.Item>Focus on creating accessible, scalable technical solutions</List.Item>
                 <List.Item>Lead implementation of data collection and reporting systems</List.Item>
@@ -195,7 +195,7 @@ export function CV() {
                 <Text c="dimmed">November 2008 - October 2010</Text>
               </Group>
               <List>
-                <List.Item>Provided first-line VoIP and Asterisk support to customers</List.Item>
+                <List.Item>Provided first-line VoIP and Asterisk support on Debian Linux systems</List.Item>
                 <List.Item>Implemented ticket tracking and network monitoring systems</List.Item>
                 <List.Item>Automated provisioning processes to improve efficiency</List.Item>
                 <List.Item>Specialized in troubleshooting SIP and VoIP over consumer ADSL</List.Item>
@@ -212,10 +212,10 @@ export function CV() {
                 <Text c="dimmed">February 2009 - August 2010</Text>
               </Group>
               <List>
-                <List.Item>Managed R&D VM cluster "Playground" supporting BBC developers</List.Item>
+                <List.Item>Managed Linux-based R&D VM cluster "Playground" supporting BBC developers</List.Item>
                 <List.Item>Administered 50+ guest VMs across 6-8 Xen hypervisor hosts</List.Item>
                 <List.Item>Provided technical support and machine provisioning for development teams</List.Item>
-                <List.Item>Maintained mixed Centos and Debian environment</List.Item>
+                <List.Item>Maintained mixed Centos and Debian Linux environment</List.Item>
               </List>
             </Stack>
           </Paper>
@@ -529,7 +529,7 @@ export function CV() {
                     </div>
                   </Group>
                   <Text fz="sm" fs="italic">
-                    "I'd met Tim through NHS Hackday where he was diving into the chaos that happens when doctors and \"geeks\" get together... He helped to pull together quotes and to explain the options with my colleague, this made everything easier for the final decision to be made."
+                    "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!"
                   </Text>
                   <Anchor href="https://colinwren.is/blog" size="sm" target="_blank">
                     View Profile
@@ -550,7 +550,7 @@ export function CV() {
                     </div>
                   </Group>
                   <Text fz="sm" fs="italic">
-                    "Tim's great to work with and really values the digital rights community. It's clear what his beliefs are in helping ORG and other groups succeed in their work."
+                    "I found Tim to be extremely personable and very professional. He assessed our needs well, and advised on a product to meet them. Tim is an excellent advocate for the company and I would happily work with him again."
                   </Text>
                   <Anchor href="https://www.openrightsgroup.org/who-we-are/jim-killock/" size="sm" target="_blank">
                     View Profile
