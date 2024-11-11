@@ -709,10 +709,7 @@ export function CV() {
                 <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
                 <List.Item>Engaged with media and handled public speaking engagements</List.Item>
                 <List.Item>
-                  <Anchor 
-                    href="https://thenextweb.com/news/pirate-party-uk" 
-                    target="_blank"
-                  >
+                  <Anchor href="https://thenextweb.com/news/pirate-party-uk" target="_blank">
                     Read The Next Web coverage
                   </Anchor>
                 </List.Item>
