@@ -1,5 +1,8 @@
 .container {
-  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
-  min-height: 100vh;
-  padding: var(--mantine-spacing-xl) 0;
+	background-color: light-dark(
+		var(--mantine-color-gray-0),
+		var(--mantine-color-dark-7)
+	);
+	min-height: 100vh;
+	padding: var(--mantine-spacing-xl) 0;
 }
