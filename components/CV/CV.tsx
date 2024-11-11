@@ -572,16 +572,16 @@ export function CV() {
                   Contributed to product development and user acquisition strategy
                 </List.Item>
                 <List.Item>
-                  <Anchor 
-                    href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/" 
+                  <Anchor
+                    href="https://web.archive.org/web/20151016170204/http://blog.tdobson.net/2014/07/ycombinator-ill-do-it/"
                     target="_blank"
                   >
                     Read about our YCombinator application experience
                   </Anchor>
                 </List.Item>
                 <List.Item>
-                  <Anchor 
-                    href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/" 
+                  <Anchor
+                    href="http://web.archive.org/web/20131111160433/https://www.dripfeed.co/"
                     target="_blank"
                   >
                     View archived application
