@@ -17,9 +17,9 @@ import {
   IconCalculator, 
   IconBuildingCommunity, 
   IconCoin,
-  IconCave, 
+  IconMountain, 
   IconSchool, 
-  IconVote,
+  IconUserCheck,
   IconCamper 
 } from '@tabler/icons-react';
 
@@ -388,7 +388,7 @@ export function CV() {
             <Stack gap="xs">
               <Group justify="space-between">
                 <Group>
-                  <IconCave size={24} color="#228BE6" />
+                  <IconMountain size={24} color="#228BE6" />
                   <Title order={3} size="h3">The Caving Crew</Title>
                 </Group>
                 <Text c="dimmed">November 2019 - Present</Text>
@@ -447,7 +447,7 @@ export function CV() {
             <Stack gap="xs">
               <Group justify="space-between">
                 <Group>
-                  <IconVote size={24} color="#BE4BDB" />
+                  <IconUserCheck size={24} color="#BE4BDB" />
                   <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
                 </Group>
                 <Text c="dimmed">March 2010 - May 2010</Text>
