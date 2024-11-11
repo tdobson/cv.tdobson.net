@@ -622,6 +622,11 @@ export function CV() {
 								<List.Item>
 									Implemented data-driven improvements based on user feedback
 								</List.Item>
+								<List.Item>
+									<Anchor href="https://tdobson.medium.com/what-we-learnt-from-building-a-jobboard-4474823db4f2" target="_blank">
+										Read about lessons learned from building the job board
+									</Anchor>
+								</List.Item>
 							</List>
 							<Group gap="xs" mt="xs">
 								<Badge size="sm">Node.js</Badge>
