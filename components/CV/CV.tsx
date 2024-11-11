@@ -683,8 +683,8 @@ export function CV() {
                   Led community outreach through Linux User Groups across Northern England
                 </List.Item>
                 <List.Item>
-                  <Anchor 
-                    href="http://web.archive.org/web/20110719024201/http://dfey.org/" 
+                  <Anchor
+                    href="http://web.archive.org/web/20110719024201/http://dfey.org/"
                     target="_blank"
                   >
                     View archived website
