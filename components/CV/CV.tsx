@@ -169,7 +169,7 @@ export function CV() {
                   <List.Item>Developed expertise in requirement gathering, proposal writing, and negotiation</List.Item>
                   <List.Item>Conducted user research and product testing through GV-style Design Sprints</List.Item>
                 </List>
-                
+
                 <Text fw={500}>Community/Events Marketing (18 months)</Text>
                 <List>
                   <List.Item>Managed and attended 24+ technical conferences annually</List.Item>
@@ -318,84 +318,6 @@ export function CV() {
           </Paper>
         </Stack>
 
-        {/* Volunteer Projects */}
-        <Stack gap="md">
-          <Title order={2} size="h2" c="blue.7">Volunteer Projects</Title>
-
-          {/* The Caving Crew */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Title order={3} size="h3">The Caving Crew</Title>
-                <Text c="dimmed">November 2019 - Present</Text>
-              </Group>
-              <List>
-                <List.Item>Setup and grew a BCA-Affiliated Caving Club to above-average size for UK Caving Clubs</List.Item>
-                <List.Item>Implemented technical solutions for club management and member engagement</List.Item>
-                <List.Item>Associated with The Climbing Clan, sharing resources and community</List.Item>
-              </List>
-              <Group gap="xs" mt="xs">
-                <Badge size="sm">Linux</Badge>
-                <Badge size="sm">Leadership</Badge>
-                <Badge size="sm">Node.js</Badge>
-              </Group>
-            </Stack>
-          </Paper>
-
-          {/* DFEY */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Title order={3} size="h3">Digital Freedom in Education & Youth - North West</Title>
-                <Text c="dimmed">June 2008 - April 2012</Text>
-              </Group>
-              <Text>Co-founded initiative to increase youth participation in technology through accessible event experiences.</Text>
-              <List>
-                <List.Item>Organized youth delegations to major tech events:
-                  <List withPadding>
-                    <List.Item>2morro Festival (London)</List.Item>
-                    <List.Item>Young Rewired State - London & Manchester centres</List.Item>
-                  </List>
-                </List.Item>
-                <List.Item>Delivered keynote presentations at technology conferences:
-                  <List withPadding>
-                    <List.Item>FutureEverything (Manchester)</List.Item>
-                    <List.Item>OpenTech (London)</List.Item>
-                    <List.Item>NeoN Digital Arts Festival (Dundee)</List.Item>
-                  </List>
-                </List.Item>
-                <List.Item>Led community outreach through Linux User Groups across Northern England</List.Item>
-              </List>
-              <Group gap="xs" mt="xs">
-                <Badge size="sm">Public Speaking</Badge>
-                <Badge size="sm">Event Organization</Badge>
-                <Badge size="sm">Youth Engagement</Badge>
-                <Badge size="sm">Technology Education</Badge>
-              </Group>
-            </Stack>
-          </Paper>
-
-          {/* Parliamentary Candidate */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
-                <Text c="dimmed">March 2010 - May 2010</Text>
-              </Group>
-              <List>
-                <List.Item>Represented Manchester Gorton constituency in 2010 General Election</List.Item>
-                <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
-                <List.Item>Engaged with media and handled public speaking engagements</List.Item>
-              </List>
-              <Group gap="xs" mt="xs">
-                <Badge size="sm">Leadership</Badge>
-                <Badge size="sm">Public Speaking</Badge>
-                <Badge size="sm">Press Relations</Badge>
-              </Group>
-            </Stack>
-          </Paper>
-        </Stack>
-
         {/* Programming Projects */}
         <Stack gap="md">
           <Title order={2} size="h2" c="blue.7">Selected Programming Portfolio</Title>
@@ -492,6 +414,86 @@ export function CV() {
             </Stack>
           </Paper>
 
+
+        </Stack>
+
+        {/* Volunteer Projects */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">Volunteer Projects</Title>
+
+          {/* The Caving Crew */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">The Caving Crew</Title>
+                <Text c="dimmed">November 2019 - Present</Text>
+              </Group>
+              <List>
+                <List.Item>Setup and grew a BCA-Affiliated Caving Club to above-average size for UK Caving Clubs</List.Item>
+                <List.Item>Implemented technical solutions for club management and member engagement</List.Item>
+                <List.Item>Associated with The Climbing Clan, sharing resources and community</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Linux</Badge>
+                <Badge size="sm">Leadership</Badge>
+                <Badge size="sm">Node.js</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* DFEY */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Digital Freedom in Education & Youth - North West</Title>
+                <Text c="dimmed">June 2008 - April 2012</Text>
+              </Group>
+              <Text>Co-founded initiative to increase youth participation in technology through accessible event experiences.</Text>
+              <List>
+                <List.Item>Organized youth delegations to major tech events:
+                  <List withPadding>
+                    <List.Item>2morro Festival (London)</List.Item>
+                    <List.Item>Young Rewired State - London & Manchester centres</List.Item>
+                  </List>
+                </List.Item>
+                <List.Item>Delivered keynote presentations at technology conferences:
+                  <List withPadding>
+                    <List.Item>FutureEverything (Manchester)</List.Item>
+                    <List.Item>OpenTech (London)</List.Item>
+                    <List.Item>NeoN Digital Arts Festival (Dundee)</List.Item>
+                  </List>
+                </List.Item>
+                <List.Item>Led community outreach through Linux User Groups across Northern England</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Public Speaking</Badge>
+                <Badge size="sm">Event Organization</Badge>
+                <Badge size="sm">Youth Engagement</Badge>
+                <Badge size="sm">Technology Education</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Parliamentary Candidate */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Title order={3} size="h3">Parliamentary Candidate - Pirate Party UK</Title>
+                <Text c="dimmed">March 2010 - May 2010</Text>
+              </Group>
+              <List>
+                <List.Item>Represented Manchester Gorton constituency in 2010 General Election</List.Item>
+                <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
+                <List.Item>Engaged with media and handled public speaking engagements</List.Item>
+              </List>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">Leadership</Badge>
+                <Badge size="sm">Public Speaking</Badge>
+                <Badge size="sm">Press Relations</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
           {/* The Van */}
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
@@ -505,7 +507,7 @@ export function CV() {
                 <List.Item>Installed electrical, gas, and structural systems</List.Item>
                 <List.Item>Documented build process through photography and social media</List.Item>
               </List>
-              <Anchor href="http://instagram.com/tdobsonnet" target="_blank">View Build Photos</Anchor>
+              <Anchor href="http://instagram.com/tim.dobson.uk" target="_blank">View Build Photos</Anchor>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Project Management</Badge>
                 <Badge size="sm">Technical Design</Badge>
@@ -514,6 +516,7 @@ export function CV() {
             </Stack>
           </Paper>
         </Stack>
+
 
         {/* Skills */}
         <Grid>
