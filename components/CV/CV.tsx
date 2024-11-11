@@ -179,6 +179,9 @@ export function CV() {
                   structure
                 </List.Item>
               </List>
+              <Anchor href="https://www.cavingcrew.com/" target="_blank">
+                Visit Website
+              </Anchor>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Community Building</Badge>
                 <Badge size="sm">Digital Transformation</Badge>
@@ -361,7 +364,7 @@ export function CV() {
                   <Badge size="sm">Linux Administration</Badge>
                   <Badge size="sm">Community Management</Badge>
                   <Badge size="sm">Event Marketing</Badge>
-                  <Badge size="sm">Open Source</Badge>
+                  <Badge size="sm">Developer Relations</Badge>
                 </Group>
               </Stack>
             </Stack>
@@ -697,6 +700,14 @@ export function CV() {
                 </List.Item>
                 <List.Item>Coordinated volunteer teams and managed campaign resources</List.Item>
                 <List.Item>Engaged with media and handled public speaking engagements</List.Item>
+                <List.Item>
+                  <Anchor 
+                    href="https://thenextweb.com/news/pirate-party-uk" 
+                    target="_blank"
+                  >
+                    Read The Next Web coverage
+                  </Anchor>
+                </List.Item>
               </List>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Leadership</Badge>
