@@ -95,9 +95,9 @@ export function CV() {
             process automation.
           </Text>
           <Text mt="md">
-            Through my active participation in rock climbing and caving, I bring a unique perspective to
-            technical challenges, combining outdoor leadership experience with systematic
-            problem-solving approaches.
+            Through my active participation in rock climbing and caving, I bring a unique
+            perspective to technical challenges, combining outdoor leadership experience with
+            systematic problem-solving approaches.
           </Text>
         </Paper>
 
@@ -128,7 +128,9 @@ export function CV() {
                   I build integrations between platforms including Google Sheets and WordPress
                 </List.Item>
                 <List.Item>I focus on creating accessible, scalable technical solutions</List.Item>
-                <List.Item>I lead implementation of data collection and reporting systems</List.Item>
+                <List.Item>
+                  I lead implementation of data collection and reporting systems
+                </List.Item>
               </List>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Full-stack Development</Badge>
