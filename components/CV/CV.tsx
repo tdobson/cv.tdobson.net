@@ -80,22 +80,22 @@ export function CV() {
         {/* Professional Summary */}
         <Paper withBorder p="md" radius="md">
           <Text>
-            A technology leader with deep roots in operations and systems administration, now
+            I am a technology leader with deep roots in operations and systems administration, now
             specializing in developing solutions that bridge technical excellence with business
-            success. Having founded and led two successful sports clubs - The Climbing Clan and The
+            success. I have founded and led two successful sports clubs - The Climbing Clan and The
             Caving Crew - while developing their technical infrastructure, including the neoClan
-            membership system, focus is firmly on using technical innovation to support practical
+            membership system. My focus is firmly on using technical innovation to support practical
             business needs.
           </Text>
           <Text mt="md">
-            Professional experience spans from hands-on Linux systems administration to technical
+            My professional experience spans from hands-on Linux systems administration to technical
             sales leadership, with particular expertise in developing customer-centric solutions and
-            driving business growth. Recent work focuses on React development using the Mantine
+            driving business growth. My recent work focuses on React development using the Mantine
             framework and Next.js, while maintaining strong capabilities in systems integration and
             process automation.
           </Text>
           <Text mt="md">
-            Active participation in rock climbing and caving brings a unique perspective to
+            Through my active participation in rock climbing and caving, I bring a unique perspective to
             technical challenges, combining outdoor leadership experience with systematic
             problem-solving approaches.
           </Text>
@@ -121,14 +121,14 @@ export function CV() {
               </Group>
               <List>
                 <List.Item>
-                  Develop serverless automation solutions on AWS helping businesses streamline
+                  I develop serverless automation solutions on AWS helping businesses streamline
                   processes and measure impact
                 </List.Item>
                 <List.Item>
-                  Build integrations between platforms including Google Sheets and WordPress
+                  I build integrations between platforms including Google Sheets and WordPress
                 </List.Item>
-                <List.Item>Focus on creating accessible, scalable technical solutions</List.Item>
-                <List.Item>Lead implementation of data collection and reporting systems</List.Item>
+                <List.Item>I focus on creating accessible, scalable technical solutions</List.Item>
+                <List.Item>I lead implementation of data collection and reporting systems</List.Item>
               </List>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Full-stack Development</Badge>
