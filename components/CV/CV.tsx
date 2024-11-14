@@ -1,3 +1,4 @@
+import testimonials from '../../config/testimonials.json';
 import {
   Anchor,
   Avatar,
@@ -845,176 +846,34 @@ export function CV() {
             Selected References
           </Title>
           <Grid>
-            {/* Mark Taylor */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar src="/testimonials/mark.jpeg" alt="Mark Taylor" size="lg" radius="xl" />
-                    <div>
-                      <Text fw={500}>Mark Taylor</Text>
-                      <Text size="sm" c="dimmed">
-                        Chief Executive Officer at Sirius Open Source Inc.
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "I've known Tim for years as he has progressed in the Open Source community ...
-                    Tim is always available, always helpful, and has made doing great business ... a
-                    pleasure."
-                  </Text>
-                  <Anchor
-                    href="https://www.siriusopensource.com/en-uk/about/meet-the-team"
-                    size="sm"
-                    target="_blank"
-                  >
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
-
-            {/* Steph Gray */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar src="/testimonials/steph.jpeg" alt="Steph Gray" size="lg" radius="xl" />
-                    <div>
-                      <Text fw={500}>Steph Gray</Text>
-                      <Text size="sm" c="dimmed">
-                        Managing Director at Helpful Digital
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "I've have known Tim through events I've organised that he's supported over five
-                    years or more. He's the friendly, approachable face of what can be quite a
-                    daunting world to folks like me from outside the natural world of Linux hosting
-                    and sysadminry."
-                  </Text>
-                  <Anchor href="https://stephgray.com/" size="sm" target="_blank">
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
-
-            {/* Ian Forrester */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar
-                      src="/testimonials/ian.jpeg"
-                      alt="Ian Forrester"
-                      size="lg"
-                      radius="xl"
-                    />
-                    <div>
-                      <Text fw={500}>Ian Forrester</Text>
-                      <Text size="sm" c="dimmed">
-                        Senior Firestarter at BBC R&D
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "Tim is a very reliable freelancer who ... has a wealth of knowledge under his
-                    belt. He's very reasonable and flexible when the job requires it. He also learns
-                    very quickly and uses the range of skills he naturally picks up on every job he
-                    takes on. Tim's an all round superstar."
-                  </Text>
-                  <Anchor href="https://www.cubicgarden.com" size="sm" target="_blank">
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
-
-            {/* Dan Morris */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar
-                      src="/testimonials/dan.jpeg"
-                      alt="Daniel Morris"
-                      size="lg"
-                      radius="xl"
-                    />
-                    <div>
-                      <Text fw={500}>Daniel Morris</Text>
-                      <Text size="sm" c="dimmed">
-                        Private Sector Engineering Leader
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "I had the luck to have Tim sysadmin our apps, absolutely saved the day
-                    repeatedly and always knew what to do!"
-                  </Text>
-                  <Anchor
-                    href="https://www.linkedin.com/in/danieljohnmorris/"
-                    size="sm"
-                    target="_blank"
-                  >
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
-
-            {/* Matt Jukes */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar src="/testimonials/matt.jpeg" alt="Matt Jukes" size="lg" radius="xl" />
-                    <div>
-                      <Text fw={500}>Matt Jukes</Text>
-                      <Text size="sm" c="dimmed">
-                        Public Sector Head of Product
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "I'd met Tim at various barcamps etc and had always been impressed with his
-                    know-how and community spirit so when I was looking for a new hosting company
-                    for the Medical Research Council he was a big factor in us choosing Bytemark. He
-                    was a great account manager for us - always helpful and on the ball."
-                  </Text>
-                  <Anchor href="https://www.linkedin.com/in/mjukes/" size="sm" target="_blank">
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
-
-            {/* Steve Kemp */}
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <Paper withBorder p="md" radius="md">
-                <Stack gap="xs">
-                  <Group>
-                    <Avatar src="/testimonials/steve.jpeg" alt="Steve Kemp" size="lg" radius="xl" />
-                    <div>
-                      <Text fw={500}>Steve Kemp</Text>
-                      <Text size="sm" c="dimmed">
-                        Senior GNU/Linux Systems Administrator
-                      </Text>
-                    </div>
-                  </Group>
-                  <Text fz="sm" fs="italic">
-                    "Tim was and is a very competent and thorough administrator, with a good feel
-                    for the kind of jobs which would be required to host any particular site. Taking
-                    enquiries and turning those into requirements for hosting was definitely
-                    something he could do with his eyes closed, and something he could do well too."
-                  </Text>
-                  <Anchor href="https://steve.fi/" size="sm" target="_blank">
-                    View Profile
-                  </Anchor>
-                </Stack>
-              </Paper>
-            </Grid.Col>
+            {testimonials.map((testimonial) => (
+              <Grid.Col key={testimonial.name} span={{ base: 12, md: 6 }}>
+                <Paper withBorder p="md" radius="md">
+                  <Stack gap="xs">
+                    <Group>
+                      <Avatar 
+                        src={`/${testimonial.image}`} 
+                        alt={testimonial.name} 
+                        size="lg" 
+                        radius="xl" 
+                      />
+                      <div>
+                        <Text fw={500}>{testimonial.name}</Text>
+                        <Text size="sm" c="dimmed">
+                          {testimonial.jobTitle}
+                        </Text>
+                      </div>
+                    </Group>
+                    <Text fz="sm" fs="italic">
+                      "{testimonial.testimonial}"
+                    </Text>
+                    <Anchor href={testimonial.link} size="sm" target="_blank">
+                      View Profile
+                    </Anchor>
+                  </Stack>
+                </Paper>
+              </Grid.Col>
+            ))}
           </Grid>
         </Stack>
 
