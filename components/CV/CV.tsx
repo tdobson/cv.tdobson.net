@@ -41,15 +41,62 @@ import React, { useEffect, useState } from 'react';
 function useProtectedEmail() {
   const [email, setEmail] = useState<string>('Loading...');
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const computeEmail = async () => {
       setIsLoading(true);
+      setError(null);
       try {
+        // Add initial delay to ensure loading state is visible
         await new Promise(resolve => setTimeout(resolve, 800));
-        const parts = ['cv', '@', 'tdobson', '.', 'net'];
-        const assembled = parts.join('');
+
+        const emailParts = ['cv', '@', 'tdobson', '.', 'net'];
+        const MAX_ATTEMPTS = 1000000; // Prevent infinite loops
+        const DIFFICULTY = 4; // Adjust this to change how hard the work is
+        
+        // Proof of work function
+        const findProofOfWork = async (difficulty: number): Promise<string> => {
+          const target = '0'.repeat(difficulty); // e.g., "000" for difficulty 3
+          let nonce = 0;
+          
+          // Create a function to get hash
+          const getHash = async (text: string) => {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+          };
+
+          while (true) {
+            if (nonce > MAX_ATTEMPTS) {
+              throw new Error('Failed to find proof of work in reasonable time');
+            }
+
+            // Check every 100 iterations if component is still mounted
+            if (nonce % 100 === 0) {
+              await new Promise(resolve => setTimeout(resolve, 0));
+            }
+
+            const attempt = `${emailParts.join('')}:${nonce}`;
+            const hash = await getHash(attempt);
+
+            if (hash.startsWith(target)) {
+              return emailParts.join('');
+            }
+
+            nonce++;
+          }
+        };
+
+        // Find proof of work with specified difficulty
+        const assembled = await findProofOfWork(DIFFICULTY);
         setEmail(assembled);
+
+      } catch (err) {
+        setError('Failed to compute email. Please try again.');
+        setEmail('Error occurred');
       } finally {
         setIsLoading(false);
       }
@@ -58,10 +105,25 @@ function useProtectedEmail() {
     computeEmail();
   }, []);
 
-  return { email, isLoading };
+  return { email, isLoading, error };
 }
 
-function ProtectedEmail({ isLoading, email }: { isLoading: boolean; email: string }) {
+function ProtectedEmail({ isLoading, email, error }: { 
+  isLoading: boolean; 
+  email: string;
+  error: string | null;
+}) {
+  if (error) {
+    return (
+      <Group gap={4}>
+        <IconMail size={16} />
+        <Text span c="red">
+          {error}
+        </Text>
+      </Group>
+    );
+  }
+
   if (isLoading) {
     return (
       <Group gap={4}>
@@ -82,7 +144,7 @@ function ProtectedEmail({ isLoading, email }: { isLoading: boolean; email: strin
 }
 
 export function CV() {
-  const { email, isLoading } = useProtectedEmail();
+  const { email, isLoading, error } = useProtectedEmail();
   return (
     <Container size="lg" py="xl">
       <Stack gap="xl">
@@ -96,7 +158,7 @@ export function CV() {
           </Text>
 
           <Group gap="md">
-            <ProtectedEmail isLoading={isLoading} email={email} />
+            <ProtectedEmail isLoading={isLoading} email={email} error={error} />
             <Group gap="xs">
               <IconPhone size={16} />
               <Anchor href="tel:01457597007">01457597007</Anchor>
@@ -925,7 +987,7 @@ export function CV() {
 
         <Paper withBorder p="md" radius="md" mt="xl">
           <Group justify="center" gap="xl">
-            <ProtectedEmail isLoading={isLoading} email={email} />
+            <ProtectedEmail isLoading={isLoading} email={email} error={error} />
             <Group gap="xs">
               <IconPhone size={16} />
               <Anchor href="tel:01457597007">01457597007</Anchor>
