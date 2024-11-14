@@ -6,6 +6,7 @@ import {
   Container,
   Grid,
   Group,
+  Loader,
   List,
   Paper,
   Stack,
@@ -35,9 +36,53 @@ import {
   IconUserCheck,
   IconUsers,
 } from '@tabler/icons-react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+function useProtectedEmail() {
+  const [email, setEmail] = useState<string>('Loading...');
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const computeEmail = async () => {
+      setIsLoading(true);
+      try {
+        await new Promise(resolve => setTimeout(resolve, 800));
+        const parts = ['cv', '@', 'tdobson', '.', 'net'];
+        const assembled = parts.join('');
+        setEmail(assembled);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    computeEmail();
+  }, []);
+
+  return { email, isLoading };
+}
+
+function ProtectedEmail({ isLoading, email }: { isLoading: boolean; email: string }) {
+  if (isLoading) {
+    return (
+      <Group gap={4}>
+        <IconMail size={16} />
+        <Text span>
+          <Loader size="xs" /> Computing secure email...
+        </Text>
+      </Group>
+    );
+  }
+
+  return (
+    <Group gap={4}>
+      <IconMail size={16} />
+      <Anchor href={`mailto:${email}`}>{email}</Anchor>
+    </Group>
+  );
+}
 
 export function CV() {
+  const { email, isLoading } = useProtectedEmail();
   return (
     <Container size="lg" py="xl">
       <Stack gap="xl">
@@ -51,10 +96,7 @@ export function CV() {
           </Text>
 
           <Group gap="md">
-            <Group gap="xs">
-              <IconMail size={16} />
-              <Anchor href="mailto:cv@tdobson.net">cv@tdobson.net</Anchor>
-            </Group>
+            <ProtectedEmail isLoading={isLoading} email={email} />
             <Group gap="xs">
               <IconPhone size={16} />
               <Anchor href="tel:01457597007">01457597007</Anchor>
@@ -883,10 +925,7 @@ export function CV() {
 
         <Paper withBorder p="md" radius="md" mt="xl">
           <Group justify="center" gap="xl">
-            <Group gap="xs">
-              <IconMail size={16} />
-              <Anchor href="mailto:cv@tdobson.net">cv@tdobson.net</Anchor>
-            </Group>
+            <ProtectedEmail isLoading={isLoading} email={email} />
             <Group gap="xs">
               <IconPhone size={16} />
               <Anchor href="tel:01457597007">01457597007</Anchor>
