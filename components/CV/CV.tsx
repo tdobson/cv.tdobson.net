@@ -83,7 +83,7 @@ export function CV() {
             I am a technology leader with deep roots in operations and systems administration, now
             specializing in developing solutions that help people get things done.
             I have founded and led two successful sports clubs - The Climbing Clan and The
-            Caving Crew - and scaled them with technical infrastructure.
+            Caving Crew - and scaled them using self-deployed digital infrastructure.
 
           </Text>
           <Text mt="md">
@@ -228,7 +228,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconCloud size={24} color="#FA5252" />
                   <Title order={3} size="h3">
                     Customer Success Manager - Brightbox
@@ -258,7 +258,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconRocket size={24} color="#FCC419" />
                   <Title order={3} size="h3">
                     User Research Specialist - Guardian Angel
@@ -284,7 +284,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconChartBar size={24} color="#228BE6" />
                   <Title order={3} size="h3">
                     Senior Account Manager - Formisimo
@@ -314,7 +314,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconServer size={24} color="#40C057" />
                   <Title order={3} size="h3">
                     Head of Sales & Account Management - Bytemark Hosting
@@ -369,7 +369,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconPhone size={24} color="#BE4BDB" />
                   <Title order={3} size="h3">
                     Systems Engineer - Data Messaging & Communications Ltd
@@ -403,7 +403,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconBroadcast size={24} color="#FA5252" />
                   <Title order={3} size="h3">
                     Contracted Xen Sysadmin - BBC Backstage
@@ -441,7 +441,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconBrandReact size={24} color="#61DAFB" />
                   <Title order={3} size="h3">
                     neoClan
@@ -482,7 +482,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconCalculator size={24} color="#40C057" />
                   <Title order={3} size="h3">
                     Materials Calculator
@@ -518,7 +518,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconBuildingCommunity size={24} color="#BE4BDB" />
                   <Title order={3} size="h3">
                     Pieline.net
@@ -561,7 +561,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconCoin size={24} color="#FCC419" />
                   <Title order={3} size="h3">
                     Dripfeed
@@ -610,7 +610,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconMountain size={24} color="#228BE6" />
                   <Title order={3} size="h3">
                     The Caving Crew
@@ -647,7 +647,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconSchool size={24} color="#40C057" />
                   <Title order={3} size="h3">
                     Digital Freedom in Education & Youth - North West
@@ -700,7 +700,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconUserCheck size={24} color="#BE4BDB" />
                   <Title order={3} size="h3">
                     Parliamentary Candidate - Pirate Party UK
@@ -732,7 +732,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconCamper size={24} color="#FA5252" />
                   <Title order={3} size="h3">
                     The Van Project
