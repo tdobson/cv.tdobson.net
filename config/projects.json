@@ -1,0 +1,38 @@
+[
+  {
+    "title": "neoClan",
+    "shortDescription": "Membership check-in system for The Climbing Clan and The Caving Crew.",
+    "screenshot": "projects/neoclan.png",
+    "shortScreencast": "projects/neoclan.gif",
+    "longDescription": "Membership check-in system for The Climbing Clan and The Caving Crew, improving operational efficiency and user experience by providing a modern multi-user mobile.",
+    "projectLink": "https://neoclan.climbingclan.com/",
+    "githubLink": "https://github.com/tdobson/neoclan",
+    "problem": "The Climbing Clan had a legacy check-in app based off Google Sheets working against a legacy API that was being used for check in purposes at events. Unfortunately this app wasn't mobile optimised, and required computer use to use the Google Apps Script extensions.",
+    "approach": "The Clan needed a mobile first application to integrate with WordPress and WooCommerce to allow users to check users in.",
+    "solution": "I selected React plus Mantine Framework with a custom built WordPress plugin to extend the existing WordPress API to provide an improved API."
+  },
+  {
+    "title": "Materials Calculator",
+    "shortDescription": "A materials calculator for Solar PV",
+    "screenshot": "projects/bom.png",
+    "shortScreencast": "projects/bom.gif",
+    "longDescription": "",
+    "projectLink": "https://rastapopoulos.pages.dev/bom",
+    "githubLink": "https://github.com/tdobson/rastapopoulos",
+    "problem": "The client wanted a materials calculator to assit them in creating pick lists for their Solar PV builds. Their previous solution was a spreadsheet originall designed for Microsoft Excel and ported to Google Sheets which ran very very slowly. This meant it took around 5-10 minutes per plot for the list of materials to be calculated",
+    "approach": "This was a place where it made sense to largely keep the same interface and UI and to move things to a modern architecture in a custom web app.",
+    "solution": "The solution was a React plus Mantine Framework app which provided a familiar input for drawing designs. ."
+  },
+  {
+    "title": "Unified Membership and Event Signup System",
+    "shortDescription": "A membership and event sign up system with tight payment integration.",
+    "screenshot": "projects/crew.png",
+    "shortScreencast": "projects/crew.gif",
+    "longDescription": "",
+    "projectLink": "https://www.cavingcrew.com/",
+    "githubLink": "",
+    "problem": "A start up sports club, The Caving Crew, needed a unified membership and event signup system. There was a requirement that it could take payments for one off events, and for membership subscriptions, and that it could record skills and disclaimers onto member profiles. Lots of pieces of commercial software offer parts of this, but none off the unified experience and mean users have to re-enter details into long forms every time they want to do something.",
+    "approach": "The approach was to investigate off the shelf Free and Open Source Software that might be able to help the club manage its activities in a unified way, allowing for up to the minute revenue and importantly - insurance compliance reporting to take place, whilst also providing a single point of truth for all systems.",
+    "solution": "We chose WordPress with WooCommerce with various plugins to get the club up and running quickly, without a big development or maintenance burden. By integrating with Stripe, we allowed the club to take payments electronically and avoid bank account reconcillation. Integrations in Google Sheets allow club officials to manipulate and interact with data for reporting and logistics purposes."
+  }
+]

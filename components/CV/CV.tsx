@@ -73,7 +73,7 @@ export function CV() {
             </Anchor>
             <Group gap="xs">
               <IconMapPin size={16} />
-              <Text>Strines, Greater Manchester, United Kingdom</Text>
+              <Text>Strines, Manchester, UK</Text>
             </Group>
           </Group>
         </Stack>
@@ -851,11 +851,11 @@ export function CV() {
                 <Paper withBorder p="md" radius="md">
                   <Stack gap="xs">
                     <Group>
-                      <Avatar 
-                        src={`/${testimonial.image}`} 
-                        alt={testimonial.name} 
-                        size="lg" 
-                        radius="xl" 
+                      <Avatar
+                        src={`/${testimonial.image}`}
+                        alt={testimonial.name}
+                        size="lg"
+                        radius="xl"
                       />
                       <div>
                         <Text fw={500}>{testimonial.name}</Text>

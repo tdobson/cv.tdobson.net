@@ -1,0 +1,39 @@
+{
+  "socialMedia": [
+    {
+      "name": "LinkedIn",
+      "icon": "IconBrandLinkedin",
+      "url": "https://www.linkedin.com/in/tdobson"
+    },
+    {
+      "name": "Instagram",
+      "icon": "IconBrandInstagram",
+      "url": "https://www.instagram.com/timdobsonuk"
+    },
+    {
+      "name": "Facebook",
+      "icon": "IconBrandFacebook",
+      "url": "https://www.facebook.com/TimDobsonUK"
+    },
+    {
+      "name": "Github",
+      "icon": "IconBrandGithub",
+      "url": "https://www.github.com/tdobson"
+    },
+    {
+      "name": "Twitter",
+      "icon": "IconBrandTwitter",
+      "url": "https://www.twitter.com/tdobson"
+    },
+    {
+      "name": "Messenger",
+      "icon": "IconBrandMessenger",
+      "url": "https://m.me/TimDobsonUK"
+    },
+    {
+      "name": "Work",
+      "icon": "IconBriefcase",
+      "url": "https://www.migratingdragons.com"
+    }
+  ]
+}

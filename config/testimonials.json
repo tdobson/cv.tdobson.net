@@ -1,0 +1,135 @@
+[
+    {
+    "name": "Steph Gray",
+    "image": "testimonials/steph.jpeg",
+    "jobTitle": "Managing Director at Helpful Digital",
+    "testimonial": "I've have known Tim through events I've organised that he's supported over five years or more. He's the friendly, approachable face of what can be quite a daunting world to folks like me from outside the natural world of Linux hosting and sysadminry. I've always felt Tim was happy to chat to me and he's always been full of good ideas both technically in terms of wider business/marketing.",
+    "link": "https://stephgray.com/"
+  },
+  {
+    "name": "Mark Taylor",
+    "image": "testimonials/mark.jpeg",
+    "jobTitle": "Chief Executive Officer at Sirius Open Source Inc.",
+    "testimonial": "I've known Tim for years as he has progressed in the Open Source community ... Tim is always available, always helpful, and has made doing great business ... a pleasure.",
+    "link": "https://www.siriusopensource.com/en-uk/about/meet-the-team"
+  },
+  {
+    "name": "Gez O'Brien",
+    "image": "testimonials/gez.jpg",
+    "jobTitle": "Chief Exec at Stardotstar",
+    "testimonial": "Initiative squared. Highly recommended.",
+    "link": "https://www.linkedin.com/in/gezo1/"
+  },
+  {
+    "name": "Colin Cuthbertson",
+    "image": "testimonials/colin.jpeg",
+    "jobTitle": "Director, Data Messaging & Communications",
+    "testimonial": "Tim is a DMC legend ... He joined the company back in 2008 and became the first full time member of our SysAdmin Team. He quickly built a great rapport with our clients and was the go to guy for help with VoIP and Linux problems. ",
+    "link": "https://www.servicesforasterisk.co.uk/"
+  },
+  {
+  "name": "Steve Kemp",
+  "image": "testimonials/steve.jpeg",
+  "jobTitle": "Senior GNU/Linux Systems Administrator",
+  "testimonial": "Tim was and is a very competent and thorough administrator, with a good feel for the kind of jobs which would be required to host any particular site. Taking enquiries and turning those into requirements for hosting was definitely something he could do with his eyes closed, and something he could do well too. Beyond merely recommending stacks and software Tim was absolutely capable of setting the things up himself too. A good all rounder for system administration.",
+  "link": "https://steve.fi/"
+},
+  {
+    "name": "Colin Wren",
+    "image": "testimonials/colinwren.jpeg",
+    "jobTitle": "Engineering Manager at Glean",
+    "testimonial": "I'd met Tim through NHS Hackday where he was diving into the chaos that happens when doctors and \"geeks\" get together. A while after St George's Healthcare NHS Trust was looking at moving from a Windows based server to a Linux based one as part of a website redevelopment. I immediately got in touch with Tim as not only do Bytemark offer such a great service at such a low price but their support and engagement with clients is excellent. He helped to pull together quotes and to explain the options with my colleague (who had the budget but lacked web server knowledge), this made everything easier for the final decision to be made.",
+    "link": "https://colinwren.is/blog"
+  },
+  {
+  "name": "Daniel Morris",
+  "image": "testimonials/dan.jpeg",
+  "jobTitle": "Private Sector Engineering Leader",
+  "testimonial": "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!",
+  "link": "https://www.linkedin.com/in/danieljohnmorris/"
+},
+  {
+    "name": "Jim Killock",
+    "image": "testimonials/jim.jpeg",
+    "jobTitle": "Executive Director at Open Rights Group",
+    "testimonial": "Tim's great to work with and really values the digital rights community. It's clear what his beliefs are in helping ORG and other groups succeed in their work.",
+    "link": "https://www.openrightsgroup.org/who-we-are/jim-killock/"
+  },
+  {
+    "name": "Tony Whitmore",
+    "image": "testimonials/tony.jpeg",
+    "jobTitle": "Public Sector IT Director",
+    "testimonial": "I found Tim to be extremely personable and very professional. He assessed our needs well, and advised on a product to meet them. Tim is an excellent advocate for the company and I would happily work with him again.",
+    "link": "https://www.linkedin.com/in/tonywhitmore/"
+  },
+  {
+    "name": "Matt Jukes",
+    "image": "testimonials/matt.jpeg",
+    "jobTitle": "Public Sector Head of Product",
+    "testimonial": "I'd met Tim at various barcamps etc and had always been impressed with his know-how and community spirit so when I was looking for a new hosting company for the Medical Research Council he was a big factor in us choosing Bytemark. He was a great account manager for us - always helpful and on the ball.",
+    "link": "https://www.linkedin.com/in/mjukes/"
+  },
+  {
+    "name": "James Lawrie",
+    "image": "testimonials/james.jpeg",
+    "jobTitle": "Linux Solutions Architect",
+    "testimonial": "Tim listens, and understands. He can listen to customer needs and understands the technical side enough to implement it himself if needed. This makes him a perfect fit anywhere along the spectrum from sales to engineering. This made Tim great to work with. He could manage customer expectations and changing needs allowing me to focus on what needed to be done. ",
+    "link": "https://www.linkedin.com/in/jameslawrie/"
+  },
+  {
+    "name": "Ant Miller",
+    "image": "testimonials/ant.jpeg",
+    "jobTitle": "Commerical Director at Human Made",
+    "testimonial": "I have been very impressed with Tim's expertise and professionalism in his role as a sys admin- he combines a tremendous technical skill set with a superb positive attitude and real flair for communication. I've been lucky enough to enjoy some of the many professional social networking events and collectives that Tim has been a driving force behind, and I can say with confidence that he's a force for good.",
+    "link": "https://www.linkedin.com/in/antmiller/"
+  },
+  {
+    "name": "Mark Keating",
+    "image": "testimonials/markshadowcat.jpeg",
+    "jobTitle": "Managing Director at Shadowcat Systems",
+    "testimonial": "I have had the pleasure of knowing Tim for a few years, through the sponsorship of the London Perl Workshop, and have found him to be a fun, intelligent and helpful guy. It is an important step to marry businesses and communities together in the technical world and Tim is one of the people who does it with ease. However, my staff at Shadowcat Systems have also worked with Tim on a professional level and know that Tim is a seriously-clued system administrator. ",
+    "link": "https://www.markkeating.me.uk/"
+  },
+  {
+    "name": "Steven Flower",
+    "image": "testimonials/steven.jpeg",
+    "jobTitle": "Open Data Services",
+    "testimonial": "I worked with Tim to help support the DFEY cause. Together we made sure that local young people interested in computing had the opportunity to meet one another and also take part in initiatives such as Young Rewired State. It was great to work with Tim. His enthusiasm and drive made were directed in a selfless manner - resulting in excellent results.",
+    "link": "https://www.linkedin.com/in/stevieflow/"
+  },
+  {
+    "name": "Dan Lynch",
+    "image": "testimonials/danlynch.jpeg",
+    "jobTitle": "Host at Linux Outlaws Podcast",
+    "testimonial": "Tim has helped us to make many events happen in recent years. Not least OggCamp which he has sponsored from its inception. He is always easy to deal with ... and I appreciate the professionalism and support :)",
+    "link": "https://www.danlynch.org/about"
+  },
+  {
+    "name": "Ian Forrester",
+    "image": "testimonials/ian.jpeg",
+    "jobTitle": "Senior Firestarter at BBC R&D",
+    "testimonial": "Tim is a very reliable freelancer who ... has a wealth of knowledge under his belt. He's very reasonable and flexible when the job requires it. He also learns very quickly and uses the range of skills he naturally picks up on every job he takes on. Tim's an all round superstar.",
+    "link": "https://www.cubicgarden.com"
+  },
+
+  {
+    "name": "Andrew Jancey",
+    "image": "testimonials/aj.jpeg",
+    "jobTitle": "Business Owner at AJ Business Solutions Ltd",
+    "testimonial": "I have had the great pleasure of working with Tim in 2019 and what a fantastic experience it has been. Tim is extremely knowledgeable not only technically but also brilliant at Business Development. He is more than happy to share his experience and ways of working with others and I have learned from him. If you are thinking of working with Tim as a client or supporting him, I have absolutely hesitation in telling you it will be a great experience and also fun. Another positive to share he is so aware of cash flow for small businesses and always make sure my invoices are paid on time. I highly recommend Tim as a great business innovator.",
+    "link": "https://www.linkedin.com/in/andrewjancey/"
+  },
+  {
+    "name": "Una Cottrell",
+    "image": "testimonials/una.jpeg",
+    "jobTitle": "Sales Funnel Consultant",
+    "testimonial": "I’ve been on Tim’s outer circle for a number of years, but met him properly when he was a team member of a client of mine when I worked on-site for 12 months. Tim’s role was 100% client-facing and he excelled at this. Extremely customer-focused, he was considerate and treated clients with the utmost integrity and professionalism. It’s pleasing to see Tim has gone freelance. Be aware that anybody who works with Tim will receive nothing but the best service and attentiveness. As freelancers, I look forward to seeing Him on the Manchester business circuit in addition to seeing his business flourish.",
+    "link": "https://www.unacottrell.com/"
+  },{
+  "name": "Phil Hallows",
+  "image": "testimonials/phil.jpeg",
+  "jobTitle": "Technical Manager at Globe Microsystems",
+  "testimonial": "Tim is one of the smarter, easy going people who does the job well just because it's the right way of doing things. A pleasure to work with.",
+  "link": "https://www.linkedin.com/in/phil-hallows-08698324/"
+}
+]
