@@ -54,12 +54,12 @@ function useProtectedEmail() {
         const emailParts = ['cv', '@', 'tdobson', '.', 'net'];
         const MAX_ATTEMPTS = 1000000; // Prevent infinite loops
         const DIFFICULTY = 4; // Adjust this to change how hard the work is
-        
+
         // Proof of work function
         const findProofOfWork = async (difficulty: number): Promise<string> => {
           const target = '0'.repeat(difficulty); // e.g., "000" for difficulty 3
           let nonce = 0;
-          
+
           // Create a function to get hash
           const getHash = async (text: string) => {
             const encoder = new TextEncoder();
@@ -108,8 +108,8 @@ function useProtectedEmail() {
   return { email, isLoading, error };
 }
 
-function ProtectedEmail({ isLoading, email, error }: { 
-  isLoading: boolean; 
+function ProtectedEmail({ isLoading, email, error }: {
+  isLoading: boolean;
   email: string;
   error: string | null;
 }) {
@@ -129,7 +129,7 @@ function ProtectedEmail({ isLoading, email, error }: {
       <Group gap={4}>
         <IconMail size={16} />
         <Text span>
-          <Loader size="xs" /> Computing secure email...
+          <Loader size="xs" /> Anti-spam shield ...
         </Text>
       </Group>
     );
