@@ -81,23 +81,19 @@ export function CV() {
         <Paper withBorder p="md" radius="md">
           <Text>
             I am a technology leader with deep roots in operations and systems administration, now
-            specializing in developing solutions that bridge technical excellence with business
-            success. I have founded and led two successful sports clubs - The Climbing Clan and The
-            Caving Crew - while developing their technical infrastructure, including the neoClan
-            membership system. My focus is firmly on using technical innovation to support practical
-            business needs.
+            specializing in developing solutions that help people get things done.
+            I have founded and led two successful sports clubs - The Climbing Clan and The
+            Caving Crew - and scaled them with technical infrastructure.
+
           </Text>
           <Text mt="md">
             My professional experience spans from hands-on Linux systems administration to technical
-            sales leadership, with particular expertise in developing customer-centric solutions and
-            driving business growth. My recent work focuses on React development using the Mantine
-            framework and Next.js, while maintaining strong capabilities in systems integration and
-            process automation.
+            sales leadership. Recently I've been focusing on React development using the Next.js and Mantine
+            framework while keeping in mind the business outcomes I'm keen for my code to deliver.
           </Text>
           <Text mt="md">
-            Through my active participation in rock climbing and caving, I bring a unique
-            perspective to technical challenges, combining outdoor leadership experience with
-            systematic problem-solving approaches.
+            Through my rock climbing and caving, I combine outdoor leadership experience with technical challenges to deliver
+            solve problems in systematic ways.
           </Text>
         </Paper>
 
@@ -114,7 +110,7 @@ export function CV() {
                 <Group wrap="nowrap">
                   <IconCode size={24} color="#228BE6" />
                   <Title order={3} size="h3">
-                    Full-stack Developer - XEBIT LIMITED
+                    Full-stack Developer - Xebit Limited
                   </Title>
                 </Group>
                 <Text c="dimmed">March 2022 - Present</Text>
