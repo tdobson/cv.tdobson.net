@@ -111,7 +111,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconCode size={24} color="#228BE6" />
                   <Title order={3} size="h3">
                     Full-stack Developer - XEBIT LIMITED
@@ -147,7 +147,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconUsers size={24} color="#40C057" />
                   <Title order={3} size="h3">
                     Founder & Former Chair - The Climbing Clan
@@ -197,7 +197,7 @@ export function CV() {
           <Paper withBorder p="md" radius="md">
             <Stack gap="xs">
               <Group justify="space-between">
-                <Group>
+                <Group wrap="nowrap">
                   <IconBuildingStore size={24} color="#BE4BDB" />
                   <Title order={3} size="h3">
                     Technical Sales Consultant - Migrating Dragons
@@ -769,12 +769,12 @@ export function CV() {
 
         {/* Skills */}
         <Grid>
-          <Grid.Col span={4}>
+          <Grid.Col span={{ base: 12, md: 4 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Technical Skills
               </Title>
-              <Group gap="xs">
+              <Group gap="xs" wrap="wrap">
                 {[
                   'Node.js',
                   'JavaScript/TypeScript',
@@ -795,12 +795,12 @@ export function CV() {
             </Stack>
           </Grid.Col>
 
-          <Grid.Col span={4}>
+          <Grid.Col span={{ base: 12, md: 4 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Languages
               </Title>
-              <Group gap="xs">
+              <Group gap="xs" wrap="wrap">
                 <Badge size="lg" variant="light" color="green">
                   English (Native)
                 </Badge>
@@ -814,7 +814,7 @@ export function CV() {
             </Stack>
           </Grid.Col>
 
-          <Grid.Col span={4}>
+          <Grid.Col span={{ base: 12, md: 4 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Education
