@@ -1211,11 +1211,6 @@ export function CV() {
             </Title>
             <List>
               <List.Item>
-                <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
-                  The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
-                </Anchor>
-              </List.Item>
-              <List.Item>
                 <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
                   York Press (2013) - "Bytemark Hosting invests in data centre"
                 </Anchor>
@@ -1233,6 +1228,11 @@ export function CV() {
               <List.Item>
                 <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
                   Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
+                </Anchor>
+              </List.Item>
+              <List.Item>
+              <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
+                  The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
                 </Anchor>
               </List.Item>
             </List>
