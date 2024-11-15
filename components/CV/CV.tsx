@@ -866,9 +866,6 @@ export function CV() {
                 <List.Item>Successfully operated consulting business while traveling across Europe</List.Item>
               </List>
               <Group gap="xs">
-                <Anchor href="http://instagram.com/tim.dobson.uk" target="_blank">
-                  View Build Photos
-                </Anchor>
                 <Anchor href="https://www.youtube.com/watch?v=Ci_H2EOONzA&t=13" target="_blank">
                   Watch UKNOF Talk
                 </Anchor>
@@ -947,9 +944,14 @@ export function CV() {
                   <Text size="sm" c="dimmed">
                     Documentary about caving with family during lockdown
                   </Text>
-                  <Anchor size="sm" href="https://www.youtube.com/watch?v=OOMMUNGkZXI" target="_blank">
-                    Watch Film
-                  </Anchor>
+                  <Group gap="xs">
+                    <Anchor size="sm" href="https://www.youtube.com/watch?v=OOMMUNGkZXI" target="_blank">
+                      Watch Film
+                    </Anchor>
+                    <Anchor size="sm" href="https://www.notreallyheremedia.com/news/glossop-chronicle/mum-and-sons-caving-video-scoops-lockdown-movie-award/" target="_blank">
+                      Read Coverage
+                    </Anchor>
+                  </Group>
                 </Paper>
                 
                 <Paper withBorder p="xs" radius="md">
@@ -958,6 +960,14 @@ export function CV() {
                   <Text size="sm" c="dimmed">
                     National cyber security competition
                   </Text>
+                  <Group gap="xs">
+                    <Anchor size="sm" href="https://www.theengineer.co.uk/content/opinion/the-skills-behind-the-screens/" target="_blank">
+                      Coverage 1
+                    </Anchor>
+                    <Anchor size="sm" href="https://www.information-age.com/defending-the-nation-26182/" target="_blank">
+                      Coverage 2
+                    </Anchor>
+                  </Group>
                 </Paper>
 
                 <Paper withBorder p="xs" radius="md">
