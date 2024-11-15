@@ -1094,52 +1094,34 @@ export function CV() {
             </Title>
             <List>
               <List.Item>
-                Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
-                    Read Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
+                  Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
-                    Read Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
+                  Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Climber Magazine (2019) - "Great-grandma starts climbing aged just 99"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.climber.co.uk/news/great-grandma-starts-climbing-aged-just-99/" target="_blank">
-                    Read Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.climber.co.uk/news/great-grandma-starts-climbing-aged-just-99/" target="_blank">
+                  Climber Magazine (2019) - "Great-grandma starts climbing aged just 99"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Parthian Climbing (2019) - "Old Hands, New Heights: 99-year-old Grandma Proves Age is No Obstacle"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://parthianclimbing.com/old-hands-new-heights-99-year-old-grandma-proves-age-is-no-obstacle/" target="_blank">
-                    Read Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://parthianclimbing.com/old-hands-new-heights-99-year-old-grandma-proves-age-is-no-obstacle/" target="_blank">
+                  Parthian Climbing (2019) - "Old Hands, New Heights: 99-year-old Grandma Proves Age is No Obstacle"
+                </Anchor>
               </List.Item>
               <List.Item>
-                BBC News (2019) - Video feature on 99-year-old climber
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.bbc.co.uk/news/av/uk-england-beds-bucks-herts-46878947" target="_blank">
-                    Watch Video
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.bbc.co.uk/news/av/uk-england-beds-bucks-herts-46878947" target="_blank">
+                  BBC News (2019) - Video feature on 99-year-old climber
+                </Anchor>
               </List.Item>
               <List.Item>
-                Tameside Reporter (2023) - "Young Stalybridge woman looking to turn a negative into a positive"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.notreallyheremedia.com/news/tameside-reporter/young-stalybridge-woman-looking-to-turn-a-negative-into-a-positive/" target="_blank">
-                    Read Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.notreallyheremedia.com/news/tameside-reporter/young-stalybridge-woman-looking-to-turn-a-negative-into-a-positive/" target="_blank">
+                  Tameside Reporter (2023) - "Young Stalybridge woman looking to turn a negative into a positive"
+                </Anchor>
               </List.Item>
             </List>
           </Stack>
@@ -1152,44 +1134,29 @@ export function CV() {
             </Title>
             <List>
               <List.Item>
-                The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
-                    View Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
+                  The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
+                </Anchor>
               </List.Item>
               <List.Item>
-                York Press (2013) - "Bytemark Hosting invests in data centre"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
-                    View Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
+                  York Press (2013) - "Bytemark Hosting invests in data centre"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Doncaster Free Press (2013) - "Doncaster named as best place in Britain to get a decent pint"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.doncasterfreepress.co.uk/news/doncaster-named-as-best-place-in-britain-to-get-a-decent-pint-65163" target="_blank">
-                    View Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.doncasterfreepress.co.uk/news/doncaster-named-as-best-place-in-britain-to-get-a-decent-pint-65163" target="_blank">
+                  Doncaster Free Press (2013) - "Doncaster named as best place in Britain to get a decent pint"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Yorkshire Evening Post (2013) - "Leeds village prepares for its much-loved annual beer celebration"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.yorkshireeveningpost.co.uk/news/leeds-village-prepares-for-its-much-loved-annual-beer-celebration-622537" target="_blank">
-                    View Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.yorkshireeveningpost.co.uk/news/leeds-village-prepares-for-its-much-loved-annual-beer-celebration-622537" target="_blank">
+                  Yorkshire Evening Post (2013) - "Leeds village prepares for its much-loved annual beer celebration"
+                </Anchor>
               </List.Item>
               <List.Item>
-                Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
-                    View Article
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
+                  Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
+                </Anchor>
               </List.Item>
             </List>
           </Stack>
