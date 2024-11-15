@@ -885,146 +885,7 @@ export function CV() {
           </Paper>
         </Stack>
 
-        {/* Media & Press Coverage */}
-        <Stack gap="md">
-          <Title order={2} size="h2" c="blue.7">
-            Selected Media & Press Coverage
-          </Title>
 
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Title order={3} size="h3">
-                Television Appearances
-              </Title>
-              <List>
-                <List.Item>
-                  Featured on BBC's The One Show (2019) - Indoor climbing segment
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://twitter.com/tdobson/status/1090574828422287361" target="_blank">
-                      View Clip
-                    </Anchor>
-                  </Group>
-                </List.Item>
-              </List>
-            </Stack>
-          </Paper>
-
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Title order={3} size="h3">
-                Press Coverage
-              </Title>
-              <List>
-                <List.Item>
-                  Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
-                      Read Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
-                      Read Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Climber Magazine (2019) - "Great-grandma starts climbing aged just 99"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.climber.co.uk/news/great-grandma-starts-climbing-aged-just-99/" target="_blank">
-                      Read Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Parthian Climbing (2019) - "Old Hands, New Heights: 99-year-old Grandma Proves Age is No Obstacle"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://parthianclimbing.com/old-hands-new-heights-99-year-old-grandma-proves-age-is-no-obstacle/" target="_blank">
-                      Read Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  BBC News (2019) - Video feature on 99-year-old climber
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.bbc.co.uk/news/av/uk-england-beds-bucks-herts-46878947" target="_blank">
-                      Watch Video
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Tameside Reporter (2023) - "Young Stalybridge woman looking to turn a negative into a positive"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.notreallyheremedia.com/news/tameside-reporter/young-stalybridge-woman-looking-to-turn-a-negative-into-a-positive/" target="_blank">
-                      Read Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-              </List>
-            </Stack>
-          </Paper>
-
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Title order={3} size="h3">
-                Photography Credits
-              </Title>
-              <List>
-                <List.Item>
-                  The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
-                      View Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  York Press (2013) - "Bytemark Hosting invests in data centre"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
-                      View Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Doncaster Free Press (2013) - "Doncaster named as best place in Britain to get a decent pint"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.doncasterfreepress.co.uk/news/doncaster-named-as-best-place-in-britain-to-get-a-decent-pint-65163" target="_blank">
-                      View Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Yorkshire Evening Post (2013) - "Leeds village prepares for its much-loved annual beer celebration"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.yorkshireeveningpost.co.uk/news/leeds-village-prepares-for-its-much-loved-annual-beer-celebration-622537" target="_blank">
-                      View Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-                <List.Item>
-                  Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
-                  <Group gap="xs" mt="xs">
-                    <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
-                      View Article
-                    </Anchor>
-                  </Group>
-                </List.Item>
-              </List>
-            </Stack>
-          </Paper>
-
-          <Group gap="xs" mt="xs">
-            <Badge size="sm">Television</Badge>
-            <Badge size="sm">Press Coverage</Badge>
-            <Badge size="sm">Media Relations</Badge>
-            <Badge size="sm">Public Speaking</Badge>
-            <Badge size="sm">Photography</Badge>
-          </Group>
-        </Stack>
 
         {/* Skills */}
         <Grid>
@@ -1094,7 +955,7 @@ export function CV() {
                     </Anchor>
                   </Group>
                 </Paper>
-                
+
                 <Paper withBorder p="xs" radius="md">
                   <Text fw={500}>Cyber Security Challenge UK</Text>
                   <Text size="sm">Network Defense Finalist (2011)</Text>
@@ -1117,9 +978,9 @@ export function CV() {
                   <Text size="sm" c="dimmed">
                     Recognition for youth sports leadership
                   </Text>
-                  <Anchor 
-                    size="sm" 
-                    href="https://www.manchestereveningnews.co.uk/news/local-news/tims-date-at-number-10-1011735" 
+                  <Anchor
+                    size="sm"
+                    href="https://www.manchestereveningnews.co.uk/news/local-news/tims-date-at-number-10-1011735"
                     target="_blank"
                   >
                     Read Coverage
@@ -1199,20 +1060,155 @@ export function CV() {
           More references available upon request
         </Text>
 
-        <Paper withBorder p="md" radius="md" mt="xl">
-          <Group justify="center" gap="xl">
-            <ProtectedEmail isLoading={isLoading} email={email} error={error} />
-            <Group gap="xs">
-              <IconPhone size={16} />
-              <Anchor href="tel:01457597007">01457597007</Anchor>
-            </Group>
-            <Group gap="xs">
-              <IconMapPin size={16} />
-              <Text>Strines, Greater Manchester, United Kingdom</Text>
-            </Group>
-          </Group>
+
+      </Stack>
+
+      {/* Media & Press Coverage */}
+      <Stack gap="md">
+        <Title order={2} size="h2" c="blue.7">
+          Selected Media & Press Coverage
+        </Title>
+
+        <Paper withBorder p="md" radius="md">
+          <Stack gap="xs">
+            <Title order={3} size="h3">
+              Television Appearances
+            </Title>
+            <List>
+              <List.Item>
+                Featured on BBC's The One Show (2019) - Indoor climbing segment
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://twitter.com/tdobson/status/1090574828422287361" target="_blank">
+                    View Clip
+                  </Anchor>
+                </Group>
+              </List.Item>
+            </List>
+          </Stack>
+        </Paper>
+
+        <Paper withBorder p="md" radius="md">
+          <Stack gap="xs">
+            <Title order={3} size="h3">
+              Press Coverage
+            </Title>
+            <List>
+              <List.Item>
+                Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
+                    Read Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
+                    Read Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Climber Magazine (2019) - "Great-grandma starts climbing aged just 99"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.climber.co.uk/news/great-grandma-starts-climbing-aged-just-99/" target="_blank">
+                    Read Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Parthian Climbing (2019) - "Old Hands, New Heights: 99-year-old Grandma Proves Age is No Obstacle"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://parthianclimbing.com/old-hands-new-heights-99-year-old-grandma-proves-age-is-no-obstacle/" target="_blank">
+                    Read Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                BBC News (2019) - Video feature on 99-year-old climber
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.bbc.co.uk/news/av/uk-england-beds-bucks-herts-46878947" target="_blank">
+                    Watch Video
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Tameside Reporter (2023) - "Young Stalybridge woman looking to turn a negative into a positive"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.notreallyheremedia.com/news/tameside-reporter/young-stalybridge-woman-looking-to-turn-a-negative-into-a-positive/" target="_blank">
+                    Read Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+            </List>
+          </Stack>
+        </Paper>
+
+        <Paper withBorder p="md" radius="md">
+          <Stack gap="xs">
+            <Title order={3} size="h3">
+              Photography Credits
+            </Title>
+            <List>
+              <List.Item>
+                The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
+                    View Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                York Press (2013) - "Bytemark Hosting invests in data centre"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
+                    View Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Doncaster Free Press (2013) - "Doncaster named as best place in Britain to get a decent pint"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.doncasterfreepress.co.uk/news/doncaster-named-as-best-place-in-britain-to-get-a-decent-pint-65163" target="_blank">
+                    View Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Yorkshire Evening Post (2013) - "Leeds village prepares for its much-loved annual beer celebration"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.yorkshireeveningpost.co.uk/news/leeds-village-prepares-for-its-much-loved-annual-beer-celebration-622537" target="_blank">
+                    View Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+              <List.Item>
+                Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
+                <Group gap="xs" mt="xs">
+                  <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
+                    View Article
+                  </Anchor>
+                </Group>
+              </List.Item>
+            </List>
+          </Stack>
         </Paper>
       </Stack>
+      <Paper withBorder p="md" radius="md" mt="xl">
+        <Group justify="center" gap="xl">
+          <ProtectedEmail isLoading={isLoading} email={email} error={error} />
+          <Group gap="xs">
+            <IconPhone size={16} />
+            <Anchor href="tel:01457597007">01457597007</Anchor>
+          </Group>
+          <Group gap="xs">
+            <IconMapPin size={16} />
+            <Text>Strines, Greater Manchester, United Kingdom</Text>
+          </Group>
+        </Group>
+      </Paper>
+
     </Container>
   );
 }
