@@ -885,7 +885,7 @@ export function CV() {
 
         {/* Skills */}
         <Grid>
-          <Grid.Col span={{ base: 12, md: 4 }}>
+          <Grid.Col span={{ base: 12, md: 3 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Technical Skills
@@ -911,7 +911,7 @@ export function CV() {
             </Stack>
           </Grid.Col>
 
-          <Grid.Col span={{ base: 12, md: 4 }}>
+          <Grid.Col span={{ base: 12, md: 3 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Languages
@@ -930,7 +930,50 @@ export function CV() {
             </Stack>
           </Grid.Col>
 
-          <Grid.Col span={{ base: 12, md: 4 }}>
+          <Grid.Col span={{ base: 12, md: 3 }}>
+            <Stack gap="md">
+              <Title order={2} size="h2" c="blue.7">
+                Awards & Recognition
+              </Title>
+              <Stack gap="xs">
+                <Paper withBorder p="xs" radius="md">
+                  <Text fw={500}>Women In Adventure Film Competition</Text>
+                  <Text size="sm">Special Mention (2021)</Text>
+                  <Text size="sm" c="dimmed">
+                    Documentary about caving with family during lockdown
+                  </Text>
+                  <Anchor size="sm" href="https://www.youtube.com/watch?v=OOMMUNGkZXI" target="_blank">
+                    Watch Film
+                  </Anchor>
+                </Paper>
+                
+                <Paper withBorder p="xs" radius="md">
+                  <Text fw={500}>Cyber Security Challenge UK</Text>
+                  <Text size="sm">Network Defense Finalist (2011)</Text>
+                  <Text size="sm" c="dimmed">
+                    National cyber security competition
+                  </Text>
+                </Paper>
+
+                <Paper withBorder p="xs" radius="md">
+                  <Text fw={500}>High Peak Young Sports Leader</Text>
+                  <Text size="sm">Winner (2007)</Text>
+                  <Text size="sm" c="dimmed">
+                    Recognition for youth sports leadership
+                  </Text>
+                  <Anchor 
+                    size="sm" 
+                    href="https://www.manchestereveningnews.co.uk/news/local-news/tims-date-at-number-10-1011735" 
+                    target="_blank"
+                  >
+                    Read Coverage
+                  </Anchor>
+                </Paper>
+              </Stack>
+            </Stack>
+          </Grid.Col>
+
+          <Grid.Col span={{ base: 12, md: 3 }}>
             <Stack gap="md">
               <Title order={2} size="h2" c="blue.7">
                 Education
