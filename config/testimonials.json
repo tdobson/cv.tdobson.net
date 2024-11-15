@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "Steph Gray",
     "image": "testimonials/steph.jpeg",
     "jobTitle": "Managing Director at Helpful Digital",
@@ -28,12 +28,12 @@
     "link": "https://www.servicesforasterisk.co.uk/"
   },
   {
-  "name": "Steve Kemp",
-  "image": "testimonials/steve.jpeg",
-  "jobTitle": "Senior GNU/Linux Systems Administrator",
-  "testimonial": "Tim was and is a very competent and thorough administrator, with a good feel for the kind of jobs which would be required to host any particular site. Taking enquiries and turning those into requirements for hosting was definitely something he could do with his eyes closed, and something he could do well too. Beyond merely recommending stacks and software Tim was absolutely capable of setting the things up himself too. A good all rounder for system administration.",
-  "link": "https://steve.fi/"
-},
+    "name": "Steve Kemp",
+    "image": "testimonials/steve.jpeg",
+    "jobTitle": "Senior GNU/Linux Systems Administrator",
+    "testimonial": "Tim was and is a very competent and thorough administrator, with a good feel for the kind of jobs which would be required to host any particular site. Taking enquiries and turning those into requirements for hosting was definitely something he could do with his eyes closed, and something he could do well too. Beyond merely recommending stacks and software Tim was absolutely capable of setting the things up himself too. A good all rounder for system administration.",
+    "link": "https://steve.fi/"
+  },
   {
     "name": "Colin Wren",
     "image": "testimonials/colinwren.jpeg",
@@ -42,12 +42,12 @@
     "link": "https://colinwren.is/blog"
   },
   {
-  "name": "Daniel Morris",
-  "image": "testimonials/dan.jpeg",
-  "jobTitle": "Private Sector Engineering Leader",
-  "testimonial": "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!",
-  "link": "https://www.linkedin.com/in/danieljohnmorris/"
-},
+    "name": "Daniel Morris",
+    "image": "testimonials/dan.jpeg",
+    "jobTitle": "Private Sector Engineering Leader",
+    "testimonial": "I had the luck to have Tim sysadmin our apps, absolutely saved the day repeatedly and always knew what to do!",
+    "link": "https://www.linkedin.com/in/danieljohnmorris/"
+  },
   {
     "name": "Jim Killock",
     "image": "testimonials/jim.jpeg",
@@ -125,39 +125,40 @@
     "jobTitle": "Sales Funnel Consultant",
     "testimonial": "I’ve been on Tim’s outer circle for a number of years, but met him properly when he was a team member of a client of mine when I worked on-site for 12 months. Tim’s role was 100% client-facing and he excelled at this. Extremely customer-focused, he was considerate and treated clients with the utmost integrity and professionalism. It’s pleasing to see Tim has gone freelance. Be aware that anybody who works with Tim will receive nothing but the best service and attentiveness. As freelancers, I look forward to seeing Him on the Manchester business circuit in addition to seeing his business flourish.",
     "link": "https://www.unacottrell.com/"
-  },{
-  "name": "Phil Hallows",
-  "image": "testimonials/phil.jpeg",
-  "jobTitle": "Technical Manager at Globe Microsystems",
-  "testimonial": "Tim is one of the smarter, easy going people who does the job well just because it's the right way of doing things. A pleasure to work with.",
-  "link": "https://www.linkedin.com/in/phil-hallows-08698324/"
-},
-{
+  },
+  {
+    "name": "Phil Hallows",
+    "image": "testimonials/phil.jpeg",
+    "jobTitle": "Technical Manager at Globe Microsystems",
+    "testimonial": "Tim is one of the smarter, easy going people who does the job well just because it's the right way of doing things. A pleasure to work with.",
+    "link": "https://www.linkedin.com/in/phil-hallows-08698324/"
+  },
+  {
     "name": "James Jenkins",
     "image": "testimonials/phil.jpeg",
     "jobTitle": "Graduate Programmer at Nomad Games",
     "testimonial": "I'd finished my cyber security degree but I felt I wanted to pursue game development instead. And while I had done multiple side projects at the time I struggled to get interviews after months of applying. But with Tim's help we developed a plan and worked on it for a few weeks which then landed me a job at Nomad Games. Which has allowed me to have a much more secure position to find jobs in the industry in the future.",
     "link": "https://www.linkedin.com/in/james-jenkins-8a1ab524a/"
-},
-{
+  },
+  {
     "name": "Adrian Secan",
     "image": "testimonials/phil.jpeg",
     "jobTitle": "Group Lead (Development Role) - Design Safety - Typhoon Platform",
     "testimonial": "I am delighted to recommend Tim, the founder and Chair of the Climbing Clan. Tim is an exceptional leader and an inspiring individual who has significantly impacted the climbing community. Under Tim's leadership, the Climbing Clan has flourished into a vibrant and inclusive community. His dedication to fostering a supportive environment where climbers of all abilities feel welcome is truly commendable. Tim's commitment to the club's values of inclusivity and encouragement has made a lasting impression on everyone involved. Tim's organizational skills are unparalleled. He has successfully coordinated numerous indoor and outdoor climbing events, training sessions, and social gatherings, ensuring that each event is well-planned and enjoyable for all participants. His ability to bring people together and create a sense of camaraderie is remarkable. In addition to his leadership and organizational talents, Tim has also developed and maintained the Climbing Clan's entire online platform. His technical expertise has been invaluable in creating a user-friendly and engaging digital space for our members. Tim's efforts have ensured that our online presence is robust and continuously evolving to meet the needs of our community. Moreover, Tim's personal qualities make him a joy to work with. He is approachable, kind, and always willing to lend a helping hand. His enthusiasm and positive attitude are contagious, motivating others to push their limits and achieve their goals. In summary, Tim is an outstanding leader and a wonderful person. His contributions to the Climbing Clan and the broader climbing community are invaluable. I wholeheartedly recommend Tim for any endeavour he chooses to pursue.",
     "link": "https://www.linkedin.com/in/adrian-secan-b455ab167/"
-},
-{
+  },
+  {
     "name": "Jessamine Harris",
     "image": "testimonials/phil.jpeg",
     "jobTitle": "Business Development at Bar Code Data/PMSS",
     "testimonial": "As a member of The Climbing Clan, I have seen Tim's enthusiasm for sharing and developing skills; his commitment to creating inclusive spaces; his ability to organise and manage a variety of projects and training opportunities; and through the committee, his ability to manage people in an effective way to achieve beneficial outcomes for a now large community. Tim is also capable of understanding and implementing effective marketing, as demonstrated through the rapid growth of the group. Tim's web development work and technical skills have also ensured that the group's website is easy to navigate but functions well. This website is used for everything from holding member details, to facilitating payments for membership (subscription) and events/training (one-off payments), to monitoring metrics such as training, volunteer status and more. To be able to take The Climbing Clan from a small group of friends with a shared interest, to a growing, sustainable, community of hundreds of members is an achievement that can only be attributed to hard work, dedication and an ability to recruit and motivate the right people to support a vision. It is these attributes that would make Tim an asset to any business.",
     "link": "https://www.linkedin.com/in/jessamine-harris-4ab61a106/"
-},
-{
+  },
+  {
     "name": "Julia Wolska",
     "image": "testimonials/phil.jpeg",
     "jobTitle": "Lecturer in Psychology at The Manchester Metropolitan University",
     "testimonial": "I joined the Climbing Clan 2 years ago and was immediately impressed how well it's managed given its large size of members. Everyone is also very welcoming and inclusive. It's visible how Tim went above and beyond to make the Climbing Clan what it is now. I'm also impressed by the skill-sharing between members, that's not common in every climbing club. When I personally once had a fallout with another member, Tim and some other committee members handled it very professionally and empathetically, to my fullest satisfaction.",
     "link": "https://www.linkedin.com/in/julia-wolska-a08025150/"
-}
+  }
 ]
