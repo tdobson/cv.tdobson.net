@@ -911,6 +911,9 @@ export function CV() {
                 <Anchor href="https://www.youtube.com/watch?v=Ci_H2EOONzA&t=13" target="_blank">
                   Watch UKNOF Talk
                 </Anchor>
+                <Anchor href="https://businessofsoftware.wistia.com/medias/mqo7e2iqtz" target="_blank">
+                  Watch Business of Software Talk
+                </Anchor>
                 <Anchor href="https://www.linkedin.com/pulse/whats-like-running-business-from-van-tim-dobson/" target="_blank">
                   Read About Van Life
                 </Anchor>
