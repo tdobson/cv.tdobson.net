@@ -719,7 +719,7 @@ export function CV() {
                 <Group wrap="nowrap">
                   <IconMountain size={24} color="#228BE6" />
                   <Title order={3} size="h3">
-                    The Caving Crew
+                    Co-Founder at The Caving Crew
                   </Title>
                 </Group>
                 <Text c="dimmed">November 2019 - Present</Text>
@@ -797,7 +797,7 @@ export function CV() {
                 <Group wrap="nowrap">
                   <IconSchool size={24} color="#40C057" />
                   <Title order={3} size="h3">
-                    Digital Freedom in Education & Youth - North West
+                    Co-Founder - Digital Freedom in Education & Youth
                   </Title>
                 </Group>
                 <Text c="dimmed">June 2008 - April 2012</Text>
@@ -887,7 +887,7 @@ export function CV() {
                 <Group wrap="nowrap">
                   <IconCamper size={24} color="#FA5252" />
                   <Title order={3} size="h3">
-                    The Van Project
+                    Creator - The Van Project
                   </Title>
                 </Group>
                 <Text c="dimmed">June 2015 - February 2020</Text>
@@ -1132,7 +1132,7 @@ export function CV() {
               </List.Item>
               <List.Item>
                 <Anchor href="https://www.facebook.com/TimDobsonUK/videos/390686671564876/" target="_blank">
-                  BBC Radio 5 Live (2019) - France travel and heatwave discussion
+                  BBC Radio 5 Live (2019) - France heatwave discussion
                 </Anchor>
               </List.Item>
               <List.Item>
@@ -1166,11 +1166,6 @@ export function CV() {
             </Title>
             <List>
               <List.Item>
-                <Anchor href="https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-van-dwellers-ditch-houses-16110998" target="_blank">
-                  Manchester Evening News (2019) - "The Manchester van dwellers who've ditched their houses for a life on the road"
-                </Anchor>
-              </List.Item>
-              <List.Item>
                 <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
                   Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
                 </Anchor>
@@ -1178,6 +1173,11 @@ export function CV() {
               <List.Item>
                 <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
                   Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-van-dwellers-ditch-houses-16110998" target="_blank">
+                  Manchester Evening News (2019) - "The Manchester van dwellers who've ditched their houses for a life on the road"
                 </Anchor>
               </List.Item>
               <List.Item>
