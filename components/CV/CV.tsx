@@ -822,6 +822,10 @@ export function CV() {
                 <List.Item>Engaged with media and handled public speaking engagements</List.Item>
               </List>
               <Group gap="xs">
+                {/* Archive links:
+                  Campaign site: https://web.archive.org/web/20100603071353/http://votepirate.org:80/gorton
+                  Microsite: https://web.archive.org/web/20160323090319/http://www.amiapirate.org/
+                */}
                 <Anchor href="https://thenextweb.com/news/pirate-party-uk" target="_blank">
                   Read The Next Web coverage
                 </Anchor>
