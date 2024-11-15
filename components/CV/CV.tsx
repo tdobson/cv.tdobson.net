@@ -885,6 +885,96 @@ export function CV() {
           </Paper>
         </Stack>
 
+        {/* Media & Press Coverage */}
+        <Stack gap="md">
+          <Title order={2} size="h2" c="blue.7">
+            Selected Media & Press Coverage
+          </Title>
+
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Title order={3} size="h3">
+                Television Appearances
+              </Title>
+              <List>
+                <List.Item>
+                  Featured on BBC's The One Show (2019) - Indoor climbing segment
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://twitter.com/tdobson/status/1090574828422287361" target="_blank">
+                      View Clip
+                    </Anchor>
+                  </Group>
+                </List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Title order={3} size="h3">
+                Press Coverage
+              </Title>
+              <List>
+                <List.Item>
+                  Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
+                      Read Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Mirror (2020) - "Gran, 71, in lockdown practices rock climbing in attic and caving under her bed"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.mirror.co.uk/news/uk-news/gran-71-lockdown-practices-rock-22001184" target="_blank">
+                      Read Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Climber Magazine (2019) - "Great-grandma starts climbing aged just 99"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.climber.co.uk/news/great-grandma-starts-climbing-aged-just-99/" target="_blank">
+                      Read Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Parthian Climbing (2019) - "Old Hands, New Heights: 99-year-old Grandma Proves Age is No Obstacle"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://parthianclimbing.com/old-hands-new-heights-99-year-old-grandma-proves-age-is-no-obstacle/" target="_blank">
+                      Read Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  BBC News (2019) - Video feature on 99-year-old climber
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.bbc.co.uk/news/av/uk-england-beds-bucks-herts-46878947" target="_blank">
+                      Watch Video
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Tameside Reporter (2023) - "Young Stalybridge woman looking to turn a negative into a positive"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.notreallyheremedia.com/news/tameside-reporter/young-stalybridge-woman-looking-to-turn-a-negative-into-a-positive/" target="_blank">
+                      Read Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
+          <Group gap="xs" mt="xs">
+            <Badge size="sm">Television</Badge>
+            <Badge size="sm">Press Coverage</Badge>
+            <Badge size="sm">Media Relations</Badge>
+            <Badge size="sm">Public Speaking</Badge>
+          </Group>
+        </Stack>
+
         {/* Skills */}
         <Grid>
           <Grid.Col span={{ base: 12, md: 3 }}>
