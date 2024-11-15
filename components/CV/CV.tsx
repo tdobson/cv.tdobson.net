@@ -778,6 +778,7 @@ export function CV() {
                     <List.Item>FutureEverything (Manchester)</List.Item>
                     <List.Item>OpenTech (London)</List.Item>
                     <List.Item>NeoN Digital Arts Festival (Dundee)</List.Item>
+                    <List.Item>BECTA Open Source Schools 'Unconference' (Nottingham) - "Engaging Young People in Technology"</List.Item>
                   </List>
                 </List.Item>
                 <List.Item>
