@@ -967,11 +967,62 @@ export function CV() {
             </Stack>
           </Paper>
 
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Title order={3} size="h3">
+                Photography Credits
+              </Title>
+              <List>
+                <List.Item>
+                  The Moscow Times (2014) - "Carlsberg Rescued From Russian Sanctions Dip by Asian Growth"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.themoscowtimes.com/2014/11/10/carlsberg-rescued-from-russian-sanctions-dip-by-asian-growth-a41166" target="_blank">
+                      View Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  York Press (2013) - "Bytemark Hosting invests in data centre"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.yorkpress.co.uk/business/news/10208668.bytemark-hosting-invests-in-data-centre/" target="_blank">
+                      View Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Doncaster Free Press (2013) - "Doncaster named as best place in Britain to get a decent pint"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.doncasterfreepress.co.uk/news/doncaster-named-as-best-place-in-britain-to-get-a-decent-pint-65163" target="_blank">
+                      View Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Yorkshire Evening Post (2013) - "Leeds village prepares for its much-loved annual beer celebration"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.yorkshireeveningpost.co.uk/news/leeds-village-prepares-for-its-much-loved-annual-beer-celebration-622537" target="_blank">
+                      View Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+                <List.Item>
+                  Derbyshire Times (2013) - "Chesterfield is third best place in UK for a pint"
+                  <Group gap="xs" mt="xs">
+                    <Anchor href="https://www.derbyshiretimes.co.uk/news/chesterfield-is-third-best-place-in-uk-for-a-pint-1252130" target="_blank">
+                      View Article
+                    </Anchor>
+                  </Group>
+                </List.Item>
+              </List>
+            </Stack>
+          </Paper>
+
           <Group gap="xs" mt="xs">
             <Badge size="sm">Television</Badge>
             <Badge size="sm">Press Coverage</Badge>
             <Badge size="sm">Media Relations</Badge>
             <Badge size="sm">Public Speaking</Badge>
+            <Badge size="sm">Photography</Badge>
           </Group>
         </Stack>
 
