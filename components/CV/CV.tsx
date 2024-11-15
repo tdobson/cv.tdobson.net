@@ -1014,6 +1014,9 @@ export function CV() {
                     <Anchor size="sm" href="https://www.information-age.com/defending-the-nation-26182/" target="_blank">
                       Coverage 2
                     </Anchor>
+                    <Anchor size="sm" href="https://web.archive.org/web/20110314125457/http://www.v3.co.uk/v3-uk/analysis/2030986/cyber-security-challenge-highlights-skilled-staff" target="_blank">
+                      Coverage 3
+                    </Anchor>
                   </Group>
                 </Paper>
 
