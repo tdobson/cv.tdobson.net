@@ -1072,16 +1072,43 @@ export function CV() {
         <Paper withBorder p="md" radius="md">
           <Stack gap="xs">
             <Title order={3} size="h3">
-              Television Appearances
+              Television & Radio Appearances
             </Title>
             <List>
               <List.Item>
-                Featured on BBC's The One Show (2019) - Indoor climbing segment
-                <Group gap="xs" mt="xs">
-                  <Anchor href="https://twitter.com/tdobson/status/1090574828422287361" target="_blank">
-                    View Clip
-                  </Anchor>
-                </Group>
+                <Anchor href="https://www.facebook.com/watch/?v=396133911168078" target="_blank">
+                  BBC's The One Show (2019) - Indoor climbing segment
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.facebook.com/TimDobsonUK/videos/2464694890480726/" target="_blank">
+                  BBC Radio 2 - Jeremy Vine Show with Amol Rajan (2024) - Van life discussion
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.facebook.com/TimDobsonUK/videos/390686671564876/" target="_blank">
+                  BBC Radio 5 Live (2023) - France travel and heatwave discussion
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.facebook.com/TimDobsonUK/videos/2123484404628212/" target="_blank">
+                  BBC Radio Scotland (2019) - Interview about grandmother's first climbing experience
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.facebook.com/watch/?v=1860259470670062" target="_blank">
+                  BBC Radio Manchester (2019) - "He's lived in his van for 2 years"
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://www.facebook.com/watch/?v=1878652862246031" target="_blank">
+                  BBC 3 Counties Radio (2019) - Interview about grandmother's first climb
+                </Anchor>
+              </List.Item>
+              <List.Item>
+                <Anchor href="https://techgrumps.wordpress.com/2023/05/09/techgrumps-3-3-tech-bros-frozen-in-carbonite/" target="_blank">
+                  TechGrumps Podcast (May 2023) - Guest appearance
+                </Anchor>
               </List.Item>
             </List>
           </Stack>
@@ -1093,6 +1120,11 @@ export function CV() {
               Press Coverage
             </Title>
             <List>
+              <List.Item>
+                <Anchor href="https://www.manchestereveningnews.co.uk/news/greater-manchester-news/manchester-van-dwellers-ditch-houses-16110998" target="_blank">
+                  Manchester Evening News (2019) - "The Manchester van dwellers who've ditched their houses for a life on the road"
+                </Anchor>
+              </List.Item>
               <List.Item>
                 <Anchor href="https://metro.co.uk/2020/05/11/adventurous-gran-goes-climbing-attic-caving-bed-lockdown-12683820/" target="_blank">
                   Metro (2020) - "Adventurous gran goes climbing in attic, caving under bed in lockdown"
