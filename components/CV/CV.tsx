@@ -845,22 +845,37 @@ export function CV() {
                 </Group>
                 <Text c="dimmed">June 2015 - February 2020</Text>
               </Group>
-              <Text>Full van conversion project with integrated systems</Text>
+              <Text>Full van conversion project with integrated systems and mobile office</Text>
               <List>
                 <List.Item>
-                  Designed and implemented complete living space conversion using Lean and Agile
-                  principles
+                  Designed and implemented complete living space conversion using Lean and Agile principles
                 </List.Item>
                 <List.Item>Installed electrical, gas, and structural systems</List.Item>
-                <List.Item>Documented build process through photography and social media</List.Item>
+                <List.Item>
+                  Delivered talks about mobile business operations at major tech conferences:
+                  <List withPadding>
+                    <List.Item>UKNOF (UK Network Operators Forum)</List.Item>
+                    <List.Item>Business of Software Europe 2017</List.Item>
+                  </List>
+                </List.Item>
+                <List.Item>Successfully operated consulting business while traveling across Europe</List.Item>
               </List>
-              <Anchor href="http://instagram.com/tim.dobson.uk" target="_blank">
-                View Build Photos
-              </Anchor>
+              <Group gap="xs">
+                <Anchor href="http://instagram.com/tim.dobson.uk" target="_blank">
+                  View Build Photos
+                </Anchor>
+                <Anchor href="https://www.youtube.com/watch?v=Ci_H2EOONzA&t=13" target="_blank">
+                  Watch UKNOF Talk
+                </Anchor>
+                <Anchor href="https://www.linkedin.com/pulse/whats-like-running-business-from-van-tim-dobson/" target="_blank">
+                  Read About Van Life
+                </Anchor>
+              </Group>
               <Group gap="xs" mt="xs">
                 <Badge size="sm">Project Management</Badge>
                 <Badge size="sm">Technical Design</Badge>
-                <Badge size="sm">Documentation</Badge>
+                <Badge size="sm">Mobile Business</Badge>
+                <Badge size="sm">Public Speaking</Badge>
                 <Badge size="sm">Lean</Badge>
                 <Badge size="sm">Agile</Badge>
               </Group>
