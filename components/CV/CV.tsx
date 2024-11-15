@@ -535,46 +535,6 @@ export function CV() {
             </Stack>
           </Paper>
 
-          {/* Freegle UK */}
-          <Paper withBorder p="md" radius="md">
-            <Stack gap="xs">
-              <Group justify="space-between">
-                <Group wrap="nowrap">
-                  <IconBroadcast size={24} color="#228BE6" />
-                  <Title order={3} size="h3">
-                    PR Consultant - Freegle UK
-                  </Title>
-                </Group>
-                <Text c="dimmed">2022</Text>
-              </Group>
-              <Text>Volunteer PR consultant for the UK's largest reuse network</Text>
-              <List>
-                <List.Item>
-                  Led "Stories for Freegle" campaign to increase local media visibility
-                </List.Item>
-                <List.Item>
-                  Mentored volunteers in story development and media engagement
-                </List.Item>
-                <List.Item>
-                  Successfully placed human interest stories in local media outlets
-                </List.Item>
-              </List>
-              <Group gap="xs">
-                <Anchor href="https://www.miltonkeynes.co.uk/news/people/milton-keynes-grandad-turns-shattered-phones-into-arty-masterpieces-and-theyre-selling-like-hot-cakes-3782371" target="_blank">
-                  Coverage Example 1
-                </Anchor>
-                <Anchor href="https://www.mkfm.com/news/local-news/milton-keynes-grandad-creates-art-work-from-old-phones-to-help-children-with-cancer/" target="_blank">
-                  Coverage Example 2
-                </Anchor>
-              </Group>
-              <Group gap="xs" mt="xs">
-                <Badge size="sm">PR Strategy</Badge>
-                <Badge size="sm">Media Relations</Badge>
-                <Badge size="sm">Volunteer Mentoring</Badge>
-                <Badge size="sm">Story Development</Badge>
-              </Group>
-            </Stack>
-          </Paper>
         </Stack>
 
         {/* Programming Projects */}
@@ -785,6 +745,47 @@ export function CV() {
                 <Badge size="sm">Linux</Badge>
                 <Badge size="sm">Leadership</Badge>
                 <Badge size="sm">Node.js</Badge>
+              </Group>
+            </Stack>
+          </Paper>
+
+          {/* Freegle UK */}
+          <Paper withBorder p="md" radius="md">
+            <Stack gap="xs">
+              <Group justify="space-between">
+                <Group wrap="nowrap">
+                  <IconBroadcast size={24} color="#228BE6" />
+                  <Title order={3} size="h3">
+                    PR Consultant - Freegle UK
+                  </Title>
+                </Group>
+                <Text c="dimmed">2022</Text>
+              </Group>
+              <Text>Volunteer PR consultant for the UK's largest reuse network</Text>
+              <List>
+                <List.Item>
+                  Led "Stories for Freegle" campaign to increase local media visibility
+                </List.Item>
+                <List.Item>
+                  Mentored volunteers in story development and media engagement
+                </List.Item>
+                <List.Item>
+                  Successfully placed human interest stories in local media outlets
+                </List.Item>
+              </List>
+              <Group gap="xs">
+                <Anchor href="https://www.miltonkeynes.co.uk/news/people/milton-keynes-grandad-turns-shattered-phones-into-arty-masterpieces-and-theyre-selling-like-hot-cakes-3782371" target="_blank">
+                  Coverage Example 1
+                </Anchor>
+                <Anchor href="https://www.mkfm.com/news/local-news/milton-keynes-grandad-creates-art-work-from-old-phones-to-help-children-with-cancer/" target="_blank">
+                  Coverage Example 2
+                </Anchor>
+              </Group>
+              <Group gap="xs" mt="xs">
+                <Badge size="sm">PR Strategy</Badge>
+                <Badge size="sm">Media Relations</Badge>
+                <Badge size="sm">Volunteer Mentoring</Badge>
+                <Badge size="sm">Story Development</Badge>
               </Group>
             </Stack>
           </Paper>
